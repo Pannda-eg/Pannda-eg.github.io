@@ -1,0 +1,103 @@
+@media (max-width: 1200px) {
+  /* line 2, media.scss */
+  html {
+    font-size: 14px; }
+
+  /* line 6, media.scss */
+  .footer-menu-left {
+    padding-left: 10px !important; }
+
+  /* line 11, media.scss */
+  .text-block__text {
+    padding: 0 10px !important; } }
+@media (max-width: 992px) {
+  /* line 18, media.scss */
+  .mobil-block,
+  .block-btn {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+
+  /* line 24, media.scss */
+  .block-btn__btn:last-child {
+    padding: 8px 22px; }
+
+  /* line 29, media.scss */
+  .footer-menu-left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+
+  /* line 34, media.scss */
+  .footer-menu {
+    margin-bottom: 20px; }
+
+  /* line 39, media.scss */
+  .border-block::before, .border-block::after, .border-block2::before, .border-block2::after {
+    display: none; }
+
+  /* line 45, media.scss */
+  .border-block3::before {
+    display: block; }
+
+  /* line 50, media.scss */
+  .btn-block {
+    width: 40%; } }
+@media (max-width: 768px) {
+  /* line 56, media.scss */
+  html {
+    font-size: 12px; }
+
+  /* line 61, media.scss */
+  .liner::before, .liner::after {
+    top: 10%; }
+
+  /* line 67, media.scss */
+  .mobil-block,
+  .block-btn {
+    margin-top: 15px; }
+
+  /* line 72, media.scss */
+  .block-logo {
+    margin-top: 15px; }
+    /* line 74, media.scss */
+    .block-logo__logo {
+      margin-top: 0; }
+
+  /* line 79, media.scss */
+  .btn-block {
+    width: 50%; } }
+@media (max-width: 575px) {
+  /* line 86, media.scss */
+  .liner::after {
+    width: 39%; }
+
+  /* line 92, media.scss */
+  .menu__item {
+    width: 50%; }
+  /* line 95, media.scss */
+  .menu__item:nth-child(2) .menu__link {
+    border-right: 0; }
+  /* line 98, media.scss */
+  .menu__item:nth-child(4) .menu__link {
+    border-right: 0; }
+
+  /* line 103, media.scss */
+  .btn-block {
+    width: 70%; }
+
+  /* line 108, media.scss */
+  .modal-page .exit {
+    right: 10%; }
+
+  /* line 114, media.scss */
+  .form-block form {
+    width: 80%; } }
+@media (max-width: 400px) {
+  /* line 121, media.scss */
+  .btn-block {
+    width: 90%; } }
