@@ -1,0 +1,295 @@
+@media (max-width: 992px) {
+  /* line 2, media.scss */
+  html {
+    font-size: 14px; }
+
+  /* line 6, media.scss */
+  .logo-block {
+    width: 90%; }
+    /* line 8, media.scss */
+    .logo-block__logo {
+      margin-top: -5px; }
+    /* line 11, media.scss */
+    .logo-block__logo img {
+      width: 100%; }
+
+  /* line 18, media.scss */
+  .login-block__button,
+  .block-btn__button {
+    padding: 7px 20px; }
+
+  /* line 23, media.scss */
+  .block-btn {
+    margin-right: 5px; }
+
+  /* line 28, media.scss */
+  .main-window .content-block {
+    padding-top: 80px;
+    padding-bottom: 80px; }
+    /* line 31, media.scss */
+    .main-window .content-block__button {
+      padding: 15px 25px; }
+
+  /* line 38, media.scss */
+  .text-block {
+    padding-top: 50px; }
+
+  /* line 43, media.scss */
+  .four-window {
+    position: relative; }
+    /* line 45, media.scss */
+    .four-window .container {
+      padding: 0; }
+    /* line 48, media.scss */
+    .four-window::before {
+      display: none; }
+    /* line 51, media.scss */
+    .four-window::after {
+      display: none; }
+
+  /* line 56, media.scss */
+  .four-content.one,
+  .four-content.two {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+
+  /* line 61, media.scss */
+  .four-content.one {
+    background: #e2f8ff; }
+
+  /* line 65, media.scss */
+  .four-content.two {
+    background: #f5f9eb; } }
+@media (max-width: 767px) {
+  /* line 71, media.scss */
+  body {
+    position: relative; }
+
+  /* line 75, media.scss */
+  .block-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+
+  /* line 79, media.scss */
+  .menu-block {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    z-index: 100;
+    background: #000; }
+    /* line 89, media.scss */
+    .menu-block .exit {
+      display: inline-block;
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      font-weight: 700;
+      font-size: 2rem;
+      color: rgba(102, 102, 102, 0.7); }
+      /* line 97, media.scss */
+      .menu-block .exit:hover, .menu-block .exit:focus {
+        color: rgba(102, 102, 102, 0.4); }
+
+  /* line 104, media.scss */
+  .main-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 40%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    /* line 113, media.scss */
+    .main-menu__item {
+      width: 100%;
+      margin-bottom: 10px;
+      -webkit-transition: 1s;
+      transition: 1s;
+      text-align: center; }
+    /* line 120, media.scss */
+    .main-menu__link {
+      display: inline-block;
+      width: 100%;
+      font-size: 1.3rem;
+      border-bottom: 1px solid transparent;
+      position: relative; }
+      /* line 126, media.scss */
+      .main-menu__link::before {
+        content: '';
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        height: 1px;
+        background: rgba(102, 102, 102, 0.4);
+        -webkit-transition: 1s;
+        transition: 1s; }
+      /* line 137, media.scss */
+      .main-menu__link::after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 0;
+        height: 1px;
+        background: rgba(102, 102, 102, 0.4);
+        -webkit-transition: 1s;
+        transition: 1s; }
+      /* line 148, media.scss */
+      .main-menu__link:hover, .main-menu__link:focus {
+        color: rgba(102, 102, 102, 0.4); }
+        /* line 151, media.scss */
+        .main-menu__link:hover::before, .main-menu__link:hover::after, .main-menu__link:focus::before, .main-menu__link:focus::after {
+          width: 100%; }
+
+  /* line 160, media.scss */
+  .number-top {
+    padding-top: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    width: 100%; }
+    /* line 166, media.scss */
+    .number-top__item {
+      width: 44%;
+      margin-bottom: 40px; }
+      /* line 169, media.scss */
+      .number-top__item:last-child {
+        margin-bottom: 0; }
+
+  /* line 176, media.scss */
+  .project-title {
+    padding-top: 40px; }
+
+  /* line 182, media.scss */
+  .people-block__name {
+    margin-right: 0px; } }
+@media (max-width: 575px) {
+  /* line 189, media.scss */
+  html {
+    font-size: 12px; }
+
+  /* line 193, media.scss */
+  .logo-block {
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+
+  /* line 200, media.scss */
+  .number-top__item {
+    width: 80%; }
+
+  /* line 205, media.scss */
+  .text-page {
+    padding-top: 80px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    /* line 209, media.scss */
+    .text-page .text-container {
+      max-width: 100%;
+      text-align: center;
+      margin-top: 20px; }
+
+  /* line 217, media.scss */
+  .four-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 50px 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    /* line 224, media.scss */
+    .four-content .block-img {
+      margin-right: 0;
+      margin-top: 0; }
+    /* line 229, media.scss */
+    .four-content .four-text {
+      max-width: 100%;
+      text-align: center;
+      margin-top: 20px; }
+
+  /* line 238, media.scss */
+  .project-item {
+    width: 60%; }
+
+  /* line 242, media.scss */
+  .project-title {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: 50px; }
+    /* line 246, media.scss */
+    .project-title__button {
+      margin-bottom: 30px; }
+
+  /* line 251, media.scss */
+  .div-text {
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 30px; }
+
+  /* line 261, media.scss */
+  .six-title__title {
+    font-size: 2rem; }
+
+  /* line 266, media.scss */
+  .people-block {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    padding-left: 10%; }
+    /* line 272, media.scss */
+    .people-block__name {
+      margin-right: 0px; } }
+@media (max-width: 500px) {
+  /* line 281, media.scss */
+  .project-item {
+    width: 65%; } }
+@media (max-width: 400px) {
+  /* line 289, media.scss */
+  .project-item {
+    width: 85%; } }
+@media (max-width: 350px) {
+  /* line 297, media.scss */
+  .project-item {
+    width: 95%; } }
