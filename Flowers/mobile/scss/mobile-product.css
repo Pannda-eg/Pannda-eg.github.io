@@ -551,7 +551,7 @@ li {
     height: 96%;
     z-index: 100;
     cursor: pointer;
-    background: #fff url(../img/arrowbutton.svg) no-repeat center; }
+    background: #fff url(../../img/arrowbutton.svg) no-repeat center; }
 
 /* line 508, mobile-product.scss */
 .form-control {
