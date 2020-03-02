@@ -1,0 +1,841 @@
+@font-face {
+  font-family: 'Tharlon';
+  src: url("../fonts/Tharlon-Regular.ttf");
+  font-weight: normal;
+  font-style: normal; }
+/* line 23, Personal.scss */
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Open Sans';
+  color: #383838; }
+
+/* line 31, Personal.scss */
+.container {
+  width: 100%;
+  max-width: 1110px;
+  padding: 0 5px;
+  margin: 0 auto; }
+
+/* line 38, Personal.scss */
+a, a:hover {
+  text-decoration: none;
+  color: #383838; }
+
+/* line 43, Personal.scss */
+li {
+  list-style-type: none; }
+
+/* line 51, Personal.scss */
+.header-topL {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 38px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid rgba(56, 56, 56, 0.3); }
+  /* line 57, Personal.scss */
+  .header-topL .menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 38px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 0; }
+    /* line 63, Personal.scss */
+    .header-topL .menu__item {
+      line-height: 38px; }
+    /* line 66, Personal.scss */
+    .header-topL .menu__link {
+      display: inline-block;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 0.9375rem;
+      padding: 0 10px; }
+  /* line 76, Personal.scss */
+  .header-topL .menu__item:nth-child(1) .menu__link {
+    padding-left: 0; }
+  /* line 80, Personal.scss */
+  .header-topL .menu__item:nth-child(2) .menu__link {
+    position: relative; }
+    /* line 82, Personal.scss */
+    .header-topL .menu__item:nth-child(2) .menu__link::before {
+      content: '';
+      position: absolute;
+      display: block;
+      top: 50%;
+      margin-top: -6px;
+      left: 0;
+      width: 1px;
+      height: 12px;
+      background: #383838; }
+    /* line 92, Personal.scss */
+    .header-topL .menu__item:nth-child(2) .menu__link::after {
+      content: '';
+      position: absolute;
+      display: block;
+      top: 50%;
+      margin-top: -6px;
+      right: 0;
+      width: 1px;
+      height: 12px;
+      background: #383838; }
+  /* line 104, Personal.scss */
+  .header-topL .menu__item:nth-child(3) .menu__link {
+    padding-right: 0; }
+  /* line 108, Personal.scss */
+  .header-topL .client-link {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.9375rem;
+    line-height: 38px;
+    color: #8C46BA;
+    display: inline-block;
+    margin-left: 24px; }
+
+/* line 120, Personal.scss */
+.header-topR {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 38px;
+  border-bottom: 1px solid rgba(56, 56, 56, 0.3); }
+  /* line 126, Personal.scss */
+  .header-topR__delivery-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 0;
+    font-size: 0.875rem;
+    line-height: 1.1875rem;
+    letter-spacing: 0.02em; }
+    /* line 136, Personal.scss */
+    .header-topR__delivery-text img {
+      margin-top: -5px;
+      margin-right: 6px; }
+  /* line 142, Personal.scss */
+  .header-topR .register-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    /* line 147, Personal.scss */
+    .header-topR .register-block__link {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 0.9375rem; }
+      /* line 153, Personal.scss */
+      .header-topR .register-block__link:first-child {
+        padding-right: 10px;
+        position: relative; }
+        /* line 156, Personal.scss */
+        .header-topR .register-block__link:first-child::before {
+          content: '';
+          position: absolute;
+          display: block;
+          top: 50%;
+          margin-top: -6px;
+          right: 0;
+          width: 1px;
+          height: 12px;
+          background: #383838; }
+      /* line 167, Personal.scss */
+      .header-topR .register-block__link:last-child {
+        padding-left: 10px; }
+
+/* line 174, Personal.scss */
+.header-middleL {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 81px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+/* line 180, Personal.scss */
+.logo-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50%;
+  height: 100%; }
+  /* line 186, Personal.scss */
+  .logo-block__logo {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 1.5rem; }
+    /* line 190, Personal.scss */
+    .logo-block__logo:hover {
+      color: #383838; }
+  /* line 194, Personal.scss */
+  .logo-block__text {
+    font-weight: 600;
+    font-size: 0.75rem;
+    margin-bottom: 4px;
+    letter-spacing: 0.04em; }
+
+/* line 202, Personal.scss */
+.tel-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50%;
+  height: 100%; }
+  /* line 209, Personal.scss */
+  .tel-block__text {
+    margin-bottom: 5px;
+    font-size: 0.8125rem;
+    opacity: 0.7; }
+  /* line 214, Personal.scss */
+  .tel-block__tel {
+    font-size: 1.5rem;
+    margin-bottom: 1px;
+    line-height: 1.5rem; }
+
+/* line 222, Personal.scss */
+.header-middleR {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 81px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  /* line 227, Personal.scss */
+  .header-middleR .basket {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    width: 32px;
+    height: 28px;
+    position: relative;
+    letter-spacing: 0.04em;
+    font-size: 0.875rem; }
+    /* line 236, Personal.scss */
+    .header-middleR .basket::after {
+      content: '';
+      position: absolute;
+      display: block;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: url(../img/basket.svg) no-repeat center; }
+  /* line 247, Personal.scss */
+  .header-middleR .price {
+    margin-bottom: 0;
+    margin-left: 19px;
+    letter-spacing: 0.02em;
+    font-size: 1.375rem; }
+
+/* line 255, Personal.scss */
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 1px solid #383838;
+  width: 64%;
+  margin-right: 55px; }
+
+/* line 262, Personal.scss */
+.input-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 32px;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  /* line 268, Personal.scss */
+  .input-block__input {
+    font-size: 0.8125rem;
+    opacity: .7;
+    padding: 0 5px 2px 0;
+    border: none; }
+  /* line 274, Personal.scss */
+  .input-block__submit {
+    width: 32px;
+    height: 32px;
+    border: none;
+    background: url(../img/search.svg) no-repeat center; }
+
+/* line 284, Personal.scss */
+.section-menu {
+  background: -webkit-gradient(linear, left top, right top, from(#E056D2), to(#7C43B6));
+  background: linear-gradient(90deg, #E056D2 0%, #7C43B6 100%); }
+
+/* line 288, Personal.scss */
+.main-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 0; }
+  /* line 291, Personal.scss */
+  .main-menu__item {
+    height: 100%; }
+  /* line 294, Personal.scss */
+  .main-menu__link {
+    display: block;
+    line-height: 56px;
+    color: #fff;
+    letter-spacing: 0.01em;
+    font-size: 0.9375rem;
+    font-weight: bold;
+    padding: 0 15px;
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
+    height: 100%; }
+    /* line 304, Personal.scss */
+    .main-menu__link:hover, .main-menu__link:focus {
+      text-decoration: underline; }
+
+/* line 311, Personal.scss */
+.main-menu__item:last-child .main-menu__link {
+  border-right: none; }
+
+/* line 315, Personal.scss */
+.hover {
+  position: relative; }
+
+/* line 319, Personal.scss */
+.hover-menu {
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 5px;
+  position: absolute;
+  bottom: -144px;
+  width: 150px;
+  background: #fff;
+  left: 0;
+  border-radius: 3px;
+  z-index: 100; }
+  /* line 331, Personal.scss */
+  .hover-menu__item {
+    width: 100%; }
+  /* line 335, Personal.scss */
+  .hover-menu__link {
+    display: block;
+    letter-spacing: 0.01em;
+    font-size: 0.9375rem;
+    color: #383838;
+    padding: 5px;
+    width: 100%;
+    border-bottom: 1px solid rgba(56, 56, 56, 0.2); }
+    /* line 344, Personal.scss */
+    .hover-menu__link:hover {
+      color: #8C46BA;
+      text-decoration: underline; }
+
+/* line 351, Personal.scss */
+.hover:hover .hover-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+/* line 356, Personal.scss */
+.hover:hover:hover > .main-menu__link, .hover:hover:focus > .main-menu__link {
+  text-decoration: underline;
+  color: #383838;
+  background: #fff; }
+  /* line 361, Personal.scss */
+  .hover:hover:hover > .main-menu__link::before, .hover:hover:focus > .main-menu__link::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: -webkit-gradient(linear, left top, right top, from(#E056D2), to(#7C43B6));
+    background: linear-gradient(90deg, #E056D2 0%, #7C43B6 100%); }
+
+/* line 376, Personal.scss */
+.cabinet-page {
+  padding-top: 24px;
+  padding-bottom: 73px; }
+  /* line 380, Personal.scss */
+  .cabinet-page__title {
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 40px; }
+
+/* line 390, Personal.scss */
+.title-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 40px; }
+  /* line 396, Personal.scss */
+  .title-block__link {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    line-height: 60px;
+    background: #FAF5FF;
+    letter-spacing: 0.02em;
+    font-weight: bold; }
+    /* line 405, Personal.scss */
+    .title-block__link:hover, .title-block__link:focus {
+      background: #8B46BA;
+      color: #fff; }
+
+/* line 412, Personal.scss */
+.block-form {
+  display: block; }
+
+/* line 416, Personal.scss */
+.form-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 40px; }
+
+/* line 423, Personal.scss */
+.input-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: auto; }
+
+/* line 429, Personal.scss */
+.item {
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  /* line 434, Personal.scss */
+  .item label {
+    letter-spacing: 0.02em;
+    font-size: 0.875rem; }
+  /* line 439, Personal.scss */
+  .item input {
+    border: 1px solid #383838;
+    border-radius: 3px;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    font-size: 0.875rem;
+    padding: 0 5px; }
+
+/* line 449, Personal.scss */
+button, .exit {
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  width: 30%;
+  background: #8B46BA;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 3px;
+  border: 1px solid transparent;
+  line-height: 40px;
+  margin: 40px auto; }
+
+/* line 463, Personal.scss */
+.exit {
+  display: block;
+  color: #383838;
+  border-color: #383838;
+  background: transparent;
+  margin: 0; }
+
+/* line 471, Personal.scss */
+.order-item {
+  border: 1px solid rgba(56, 56, 56, 0.2);
+  border-left: none;
+  border-right: none;
+  margin-bottom: 20px;
+  padding-top: 20px; }
+
+/* line 479, Personal.scss */
+.order-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  /* line 483, Personal.scss */
+  .order-top__name {
+    letter-spacing: 0.02em;
+    font-weight: 600;
+    font-size: 1.25rem; }
+  /* line 488, Personal.scss */
+  .order-top__info {
+    letter-spacing: 0.02em;
+    font-weight: 600; }
+  /* line 492, Personal.scss */
+  .order-top__status {
+    color: #219653;
+    margin-left: 47px; }
+  /* line 496, Personal.scss */
+  .order-top__status.yellow {
+    color: #F2C94C; }
+
+/* line 501, Personal.scss */
+.product-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 80%; }
+
+/* line 507, Personal.scss */
+.product-page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+  width: 40%; }
+
+/* line 513, Personal.scss */
+.info-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 30px; }
+  /* line 518, Personal.scss */
+  .info-block__name {
+    width: 70%;
+    letter-spacing: 0.01em;
+    font-size: 0.9375rem;
+    line-height: 1.1rem; }
+  /* line 524, Personal.scss */
+  .info-block__number {
+    letter-spacing: 0.02em; }
+
+/* line 529, Personal.scss */
+.price {
+  text-align: right;
+  letter-spacing: 0.02em;
+  font-weight: 600; }
+  /* line 534, Personal.scss */
+  .price .numeral {
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin-left: 33px; }
+
+/* line 541, Personal.scss */
+.ordertwo-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  /* line 544, Personal.scss */
+  .ordertwo-top__name {
+    text-align: center;
+    margin-bottom: 0;
+    width: 100%;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.5rem; }
+
+/* line 555, Personal.scss */
+.ordertwo-toptwo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 34px;
+  margin-bottom: 26px; }
+  /* line 560, Personal.scss */
+  .ordertwo-toptwo p {
+    margin-bottom: 0;
+    letter-spacing: 0.02em;
+    font-weight: 600; }
+    /* line 564, Personal.scss */
+    .ordertwo-toptwo p span {
+      margin-left: 7px; }
+  /* line 568, Personal.scss */
+  .ordertwo-toptwo__data {
+    margin-left: 101px;
+    margin-right: 79px; }
+  /* line 573, Personal.scss */
+  .ordertwo-toptwo__price span {
+    font-size: 1.5rem;
+    font-weight: normal; }
+  /* line 578, Personal.scss */
+  .ordertwo-toptwo__status {
+    color: #219653; }
+
+/* line 583, Personal.scss */
+.address {
+  letter-spacing: 0.02em;
+  font-weight: 600; }
+  /* line 587, Personal.scss */
+  .address span {
+    display: block;
+    font-weight: normal; }
+
+/* line 593, Personal.scss */
+.button-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%; }
+  /* line 599, Personal.scss */
+  .button-block__link {
+    width: 30%;
+    border-radius: 3px;
+    border: 1px solid transparent;
+    background: #8B46BA;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    font-size: 0.875rem;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    margin-top: 24px; }
+  /* line 614, Personal.scss */
+  .button-block__link:last-child {
+    background: transparent;
+    border-color: #383838;
+    color: #383838; }
+
+/* line 622, Personal.scss */
+.footer {
+  color: #fff;
+  background: #383838;
+  padding-top: 37px; }
+
+/* line 628, Personal.scss */
+.block-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  /* line 631, Personal.scss */
+  .block-link__link {
+    display: inline-block;
+    color: #fff;
+    font-size: 0.9375rem;
+    font-family: 'Roboto';
+    margin-bottom: 25px; }
+    /* line 637, Personal.scss */
+    .block-link__link:hover, .block-link__link:focus {
+      color: #fff; }
+
+/* line 643, Personal.scss */
+.block-link2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  /* line 646, Personal.scss */
+  .block-link2__link {
+    display: inline-block;
+    color: #fff;
+    font-size: 0.9375rem;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    margin-bottom: 10px; }
+    /* line 653, Personal.scss */
+    .block-link2__link:hover, .block-link2__link:focus {
+      color: #fff; }
+
+/* line 661, Personal.scss */
+.contact-block .form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+  width: 100%; }
+/* line 667, Personal.scss */
+.contact-block .input-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 32px;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  /* line 673, Personal.scss */
+  .contact-block .input-block__input {
+    font-size: 0.8125rem;
+    opacity: .7;
+    padding: 0 5px 2px 0;
+    border: none;
+    color: #fff;
+    background: transparent; }
+  /* line 681, Personal.scss */
+  .contact-block .input-block__submit {
+    width: 32px;
+    height: 32px;
+    border: none;
+    background: url(../img/search2.svg) no-repeat center; }
+/* line 689, Personal.scss */
+.contact-block .tel-block {
+  margin-top: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50%;
+  height: 100%; }
+  /* line 697, Personal.scss */
+  .contact-block .tel-block__text {
+    margin-bottom: 5px;
+    font-size: 0.8125rem;
+    opacity: 0.7;
+    color: #fff; }
+  /* line 703, Personal.scss */
+  .contact-block .tel-block__tel {
+    font-size: 1.5rem;
+    margin-bottom: 1px;
+    line-height: 1.5rem;
+    color: #fff; }
+/* line 711, Personal.scss */
+.contact-block__delivery-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 0;
+  color: #fff;
+  font-size: 0.875rem;
+  line-height: 1.1875rem;
+  letter-spacing: 0.02em;
+  margin-top: 15px; }
+  /* line 722, Personal.scss */
+  .contact-block__delivery-text img {
+    margin-top: -5px;
+    margin-right: 6px; }
+
+/* line 730, Personal.scss */
+.card-block__text {
+  color: #fff;
+  font-size: 0.8125rem;
+  opacity: .7;
+  margin-bottom: 12px;
+  margin-top: 37px; }
+
+/* line 739, Personal.scss */
+.requisites-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-top: 1px solid rgba(196, 196, 196, 0.3);
+  margin-top: 20px;
+  padding-top: 24px;
+  padding-bottom: 24px; }
+  /* line 747, Personal.scss */
+  .requisites-block__text {
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #fff;
+    margin-bottom: 0px; }
+  /* line 753, Personal.scss */
+  .requisites-block__text:first-child {
+    margin-bottom: 20px; }

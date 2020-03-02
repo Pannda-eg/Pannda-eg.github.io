@@ -1,0 +1,874 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'Tharlon';
+  src: url("../fonts/Tharlon-Regular.ttf");
+  font-weight: normal;
+  font-style: normal; }
+/* line 23, baskettwo.scss */
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Open Sans';
+  color: #383838; }
+
+/* line 31, baskettwo.scss */
+.container {
+  width: 100%;
+  max-width: 1110px;
+  padding: 0 5px;
+  margin: 0 auto;
+  overflow: hidden; }
+
+/* line 39, baskettwo.scss */
+a, a:hover {
+  text-decoration: none;
+  color: #383838; }
+
+/* line 44, baskettwo.scss */
+li {
+  list-style-type: none; }
+
+/* line 51, baskettwo.scss */
+.header-topL {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 38px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid rgba(56, 56, 56, 0.3); }
+  /* line 57, baskettwo.scss */
+  .header-topL .menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 38px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 0; }
+    /* line 63, baskettwo.scss */
+    .header-topL .menu__item {
+      line-height: 38px; }
+    /* line 66, baskettwo.scss */
+    .header-topL .menu__link {
+      display: inline-block;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 0.9375rem;
+      padding: 0 10px; }
+  /* line 76, baskettwo.scss */
+  .header-topL .menu__item:nth-child(1) .menu__link {
+    padding-left: 0; }
+  /* line 80, baskettwo.scss */
+  .header-topL .menu__item:nth-child(2) .menu__link {
+    position: relative; }
+    /* line 82, baskettwo.scss */
+    .header-topL .menu__item:nth-child(2) .menu__link::before {
+      content: '';
+      position: absolute;
+      display: block;
+      top: 50%;
+      margin-top: -6px;
+      left: 0;
+      width: 1px;
+      height: 12px;
+      background: #383838; }
+    /* line 92, baskettwo.scss */
+    .header-topL .menu__item:nth-child(2) .menu__link::after {
+      content: '';
+      position: absolute;
+      display: block;
+      top: 50%;
+      margin-top: -6px;
+      right: 0;
+      width: 1px;
+      height: 12px;
+      background: #383838; }
+  /* line 104, baskettwo.scss */
+  .header-topL .menu__item:nth-child(3) .menu__link {
+    padding-right: 0; }
+  /* line 108, baskettwo.scss */
+  .header-topL .client-link {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.9375rem;
+    line-height: 38px;
+    color: #8C46BA;
+    display: inline-block;
+    margin-left: 24px; }
+
+/* line 120, baskettwo.scss */
+.header-topR {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 38px;
+  border-bottom: 1px solid rgba(56, 56, 56, 0.3); }
+  /* line 126, baskettwo.scss */
+  .header-topR__delivery-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 0;
+    font-size: 0.875rem;
+    line-height: 1.1875rem;
+    letter-spacing: 0.02em; }
+    /* line 136, baskettwo.scss */
+    .header-topR__delivery-text img {
+      margin-top: -5px;
+      margin-right: 6px; }
+  /* line 142, baskettwo.scss */
+  .header-topR .register-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    /* line 147, baskettwo.scss */
+    .header-topR .register-block__link {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 0.9375rem; }
+      /* line 153, baskettwo.scss */
+      .header-topR .register-block__link:first-child {
+        padding-right: 10px;
+        position: relative; }
+        /* line 156, baskettwo.scss */
+        .header-topR .register-block__link:first-child::before {
+          content: '';
+          position: absolute;
+          display: block;
+          top: 50%;
+          margin-top: -6px;
+          right: 0;
+          width: 1px;
+          height: 12px;
+          background: #383838; }
+      /* line 167, baskettwo.scss */
+      .header-topR .register-block__link:last-child {
+        padding-left: 10px; }
+
+/* line 174, baskettwo.scss */
+.header-middleL {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 81px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+/* line 180, baskettwo.scss */
+.logo-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50%;
+  height: 100%; }
+  /* line 186, baskettwo.scss */
+  .logo-block__logo {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 1.5rem; }
+    /* line 190, baskettwo.scss */
+    .logo-block__logo:hover {
+      color: #383838; }
+  /* line 194, baskettwo.scss */
+  .logo-block__text {
+    font-weight: 600;
+    font-size: 0.75rem;
+    margin-bottom: 4px;
+    letter-spacing: 0.04em; }
+
+/* line 202, baskettwo.scss */
+.tel-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50%;
+  height: 100%; }
+  /* line 209, baskettwo.scss */
+  .tel-block__text {
+    margin-bottom: 5px;
+    font-size: 0.8125rem;
+    opacity: 0.7; }
+  /* line 214, baskettwo.scss */
+  .tel-block__tel {
+    font-size: 1.5rem;
+    margin-bottom: 1px;
+    line-height: 1.5rem; }
+
+/* line 222, baskettwo.scss */
+.header-middleR {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 81px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  /* line 227, baskettwo.scss */
+  .header-middleR .basket {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    width: 32px;
+    height: 28px;
+    position: relative;
+    letter-spacing: 0.04em;
+    font-size: 0.875rem; }
+    /* line 236, baskettwo.scss */
+    .header-middleR .basket::after {
+      content: '';
+      position: absolute;
+      display: block;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: url(../img/basket.svg) no-repeat center; }
+  /* line 247, baskettwo.scss */
+  .header-middleR .price {
+    margin-bottom: 0;
+    margin-left: 19px;
+    letter-spacing: 0.02em;
+    font-size: 1.375rem; }
+
+/* line 255, baskettwo.scss */
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 1px solid #383838;
+  width: 64%;
+  margin-right: 55px; }
+
+/* line 262, baskettwo.scss */
+.input-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 32px;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  /* line 268, baskettwo.scss */
+  .input-block__input {
+    font-size: 0.8125rem;
+    opacity: .7;
+    padding: 0 5px 2px 0;
+    border: none; }
+  /* line 274, baskettwo.scss */
+  .input-block__submit {
+    width: 32px;
+    height: 32px;
+    border: none;
+    background: url(../img/search.svg) no-repeat center; }
+
+/* line 284, baskettwo.scss */
+.section-menu {
+  background: -webkit-gradient(linear, left top, right top, from(#E056D2), to(#7C43B6));
+  background: linear-gradient(90deg, #E056D2 0%, #7C43B6 100%); }
+
+/* line 288, baskettwo.scss */
+.main-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 0; }
+  /* line 291, baskettwo.scss */
+  .main-menu__item {
+    height: 100%; }
+  /* line 294, baskettwo.scss */
+  .main-menu__link {
+    display: block;
+    line-height: 56px;
+    color: #fff;
+    letter-spacing: 0.01em;
+    font-size: 0.9375rem;
+    font-weight: bold;
+    padding: 0 15px;
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
+    height: 100%; }
+    /* line 304, baskettwo.scss */
+    .main-menu__link:hover, .main-menu__link:focus {
+      text-decoration: underline; }
+
+/* line 311, baskettwo.scss */
+.main-menu__item:last-child .main-menu__link {
+  border-right: none; }
+
+/* line 315, baskettwo.scss */
+.hover {
+  position: relative; }
+
+/* line 319, baskettwo.scss */
+.hover-menu {
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 5px;
+  position: absolute;
+  bottom: -144px;
+  width: 150px;
+  background: #fff;
+  left: 0;
+  border-radius: 3px;
+  z-index: 100; }
+  /* line 331, baskettwo.scss */
+  .hover-menu__item {
+    width: 100%; }
+  /* line 335, baskettwo.scss */
+  .hover-menu__link {
+    display: block;
+    letter-spacing: 0.01em;
+    font-size: 0.9375rem;
+    color: #383838;
+    padding: 5px;
+    width: 100%;
+    border-bottom: 1px solid rgba(56, 56, 56, 0.2); }
+    /* line 344, baskettwo.scss */
+    .hover-menu__link:hover {
+      color: #8C46BA;
+      text-decoration: underline; }
+
+/* line 351, baskettwo.scss */
+.hover:hover .hover-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+/* line 356, baskettwo.scss */
+.hover:hover:hover > .main-menu__link, .hover:hover:focus > .main-menu__link {
+  text-decoration: underline;
+  color: #383838;
+  background: #fff; }
+  /* line 361, baskettwo.scss */
+  .hover:hover:hover > .main-menu__link::before, .hover:hover:focus > .main-menu__link::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: -webkit-gradient(linear, left top, right top, from(#E056D2), to(#7C43B6));
+    background: linear-gradient(90deg, #E056D2 0%, #7C43B6 100%); }
+
+/* line 374, baskettwo.scss */
+.way-text {
+  letter-spacing: 0.02em;
+  opacity: 0.5;
+  margin-bottom: 32px; }
+
+/* line 380, baskettwo.scss */
+input[type="radio"]:checked,
+input[type="radio"]:not(:checked) {
+  position: absolute;
+  left: -9999px; }
+
+/* line 387, baskettwo.scss */
+input[type="radio"]:checked + label,
+input[type="radio"]:not(:checked) + label {
+  display: inline-block;
+  position: relative;
+  padding-left: 28px;
+  line-height: 20px;
+  cursor: pointer; }
+
+/* line 396, baskettwo.scss */
+input[type="radio"]:checked + label:before,
+input[type="radio"]:not(:checked) + label:before {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #383838;
+  background-color: #ffffff; }
+
+/* line 408, baskettwo.scss */
+input[type="radio"]:checked + label:before,
+input[type="radio"]:not(:checked) + label:before {
+  border-radius: 100%; }
+
+/* line 413, baskettwo.scss */
+input[type="radio"]:checked + label:after,
+input[type="radio"]:not(:checked) + label:after {
+  content: "✓";
+  position: absolute;
+  background: #8B46BA; }
+
+/* line 420, baskettwo.scss */
+input[type="radio"]:checked + label:after,
+input[type="radio"]:not(:checked) + label:after {
+  left: 0px;
+  top: 0px;
+  border-radius: 50%;
+  text-align: center;
+  color: #fff;
+  width: 20px;
+  height: 20px; }
+
+/* line 431, baskettwo.scss */
+input[type="radio"]:not(:checked) + label:after {
+  opacity: 0; }
+
+/* line 435, baskettwo.scss */
+input[type="radio"]:checked + label:after {
+  opacity: 1; }
+
+/* line 441, baskettwo.scss */
+.contant {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  /* line 445, baskettwo.scss */
+  .contant__title {
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 600; }
+
+/* line 454, baskettwo.scss */
+.total-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgba(56, 56, 56, 0.2); }
+  /* line 460, baskettwo.scss */
+  .total-block__text {
+    letter-spacing: 0.02em;
+    font-size: 1.5rem;
+    margin-bottom: 0; }
+  /* line 465, baskettwo.scss */
+  .total-block__price {
+    letter-spacing: 0.02em;
+    font-size: 2rem;
+    margin-bottom: 0;
+    margin-left: 15px; }
+
+/* line 473, baskettwo.scss */
+.basket-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  border-bottom: 1px solid rgba(56, 56, 56, 0.2); }
+
+/* line 480, baskettwo.scss */
+.product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 33%;
+  margin-right: 10px;
+  line-height: 1.2rem;
+  padding-top: 10px;
+  padding-bottom: 20px; }
+  /* line 489, baskettwo.scss */
+  .product .product-info {
+    margin-left: 30px; }
+    /* line 491, baskettwo.scss */
+    .product .product-info__title {
+      letter-spacing: 0.01em;
+      font-weight: bold;
+      width: 75%;
+      margin-bottom: 0; }
+    /* line 497, baskettwo.scss */
+    .product .product-info__quantity {
+      letter-spacing: 0.02em;
+      font-size: 1.125rem;
+      margin-top: 10px;
+      margin-bottom: 15px; }
+    /* line 503, baskettwo.scss */
+    .product .product-info__price {
+      letter-spacing: 0.02em;
+      font-size: 2rem;
+      margin-bottom: 0; }
+
+/* line 513, baskettwo.scss */
+.contact-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  /* line 517, baskettwo.scss */
+  .contact-form__title {
+    margin-bottom: 5px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 20px; }
+
+/* line 526, baskettwo.scss */
+.contact-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  /* line 529, baskettwo.scss */
+  .contact-input input {
+    width: 30%;
+    border: 1px solid #383838;
+    border-radius: 3px;
+    padding: 7px;
+    letter-spacing: 0.02em;
+    font-size: 0.875rem;
+    margin-bottom: 5px; }
+
+/* line 540, baskettwo.scss */
+.radio-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  /* line 544, baskettwo.scss */
+  .radio-block label {
+    font-size: 0.875rem;
+    margin-bottom: 0; }
+    /* line 547, baskettwo.scss */
+    .radio-block label span {
+      display: block;
+      font-style: italic;
+      font-size: 0.75rem;
+      opacity: .7;
+      margin-left: -30px;
+      font-weight: normal;
+      margin-bottom: 5px; }
+
+/* line 559, baskettwo.scss */
+.data-block,
+.address-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%; }
+
+/* line 566, baskettwo.scss */
+.input-data {
+  position: relative;
+  width: 30%;
+  margin-right: 30px; }
+  /* line 570, baskettwo.scss */
+  .input-data__data {
+    width: 100%;
+    padding: 7px;
+    border: 1px solid #383838;
+    border-radius: 3px;
+    letter-spacing: 0.02em;
+    font-size: 0.875rem; }
+  /* line 578, baskettwo.scss */
+  .input-data a {
+    display: block;
+    position: absolute;
+    top: 3px;
+    left: 90%;
+    cursor: pointer; }
+
+/* line 587, baskettwo.scss */
+.bold {
+  font-weight: 600; }
+
+/* line 592, baskettwo.scss */
+.address-block__address {
+  width: 30%;
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin-right: 30px;
+  padding: 7px;
+  border: 1px solid #383838;
+  border-radius: 3px;
+  letter-spacing: 0.02em;
+  font-size: 0.875rem;
+  resize: none; }
+
+/* line 608, baskettwo.scss */
+.comment-block__comment {
+  width: 30%;
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin-right: 30px;
+  padding: 7px;
+  border: 1px solid #383838;
+  border-radius: 3px;
+  letter-spacing: 0.02em;
+  font-size: 0.875rem;
+  resize: none; }
+
+/* line 623, baskettwo.scss */
+.payment-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  /* line 626, baskettwo.scss */
+  .payment-block label {
+    font-size: 0.875rem; }
+    /* line 628, baskettwo.scss */
+    .payment-block label span {
+      display: block;
+      font-style: italic;
+      font-size: 0.75rem;
+      opacity: .7;
+      margin-left: -30px;
+      margin-bottom: 5px;
+      font-weight: normal; }
+
+/* line 640, baskettwo.scss */
+.submit {
+  width: 30%;
+  border-radius: 3px;
+  background: #8B46BA;
+  color: #fff;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 600;
+  border: none;
+  line-height: 2.5rem;
+  margin: 84px auto 146px; }
+
+/* line 656, baskettwo.scss */
+.footer {
+  color: #fff;
+  background: #383838;
+  padding-top: 37px; }
+
+/* line 662, baskettwo.scss */
+.block-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  /* line 665, baskettwo.scss */
+  .block-link__link {
+    display: inline-block;
+    color: #fff;
+    font-size: 0.9375rem;
+    font-family: 'Roboto';
+    margin-bottom: 25px; }
+    /* line 671, baskettwo.scss */
+    .block-link__link:hover, .block-link__link:focus {
+      color: #fff; }
+
+/* line 677, baskettwo.scss */
+.block-link2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  /* line 680, baskettwo.scss */
+  .block-link2__link {
+    display: inline-block;
+    color: #fff;
+    font-size: 0.9375rem;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    margin-bottom: 10px; }
+    /* line 687, baskettwo.scss */
+    .block-link2__link:hover, .block-link2__link:focus {
+      color: #fff; }
+
+/* line 695, baskettwo.scss */
+.contact-block .form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+  width: 100%; }
+/* line 701, baskettwo.scss */
+.contact-block .input-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 32px;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  /* line 707, baskettwo.scss */
+  .contact-block .input-block__input {
+    font-size: 0.8125rem;
+    opacity: .7;
+    padding: 0 5px 2px 0;
+    border: none;
+    color: #fff;
+    background: transparent; }
+  /* line 715, baskettwo.scss */
+  .contact-block .input-block__submit {
+    width: 32px;
+    height: 32px;
+    border: none;
+    background: url(../img/search2.svg) no-repeat center; }
+/* line 723, baskettwo.scss */
+.contact-block .tel-block {
+  margin-top: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50%;
+  height: 100%; }
+  /* line 731, baskettwo.scss */
+  .contact-block .tel-block__text {
+    margin-bottom: 5px;
+    font-size: 0.8125rem;
+    opacity: 0.7;
+    color: #fff; }
+  /* line 737, baskettwo.scss */
+  .contact-block .tel-block__tel {
+    font-size: 1.5rem;
+    margin-bottom: 1px;
+    line-height: 1.5rem;
+    color: #fff; }
+/* line 745, baskettwo.scss */
+.contact-block__delivery-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 0;
+  color: #fff;
+  font-size: 0.875rem;
+  line-height: 1.1875rem;
+  letter-spacing: 0.02em;
+  margin-top: 15px; }
+  /* line 756, baskettwo.scss */
+  .contact-block__delivery-text img {
+    margin-top: -5px;
+    margin-right: 6px; }
+
+/* line 764, baskettwo.scss */
+.card-block__text {
+  color: #fff;
+  font-size: 0.8125rem;
+  opacity: .7;
+  margin-bottom: 12px;
+  margin-top: 37px; }
+
+/* line 773, baskettwo.scss */
+.requisites-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-top: 1px solid rgba(196, 196, 196, 0.3);
+  margin-top: 20px;
+  padding-top: 24px;
+  padding-bottom: 24px; }
+  /* line 781, baskettwo.scss */
+  .requisites-block__text {
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #fff;
+    margin-bottom: 0px; }
+  /* line 787, baskettwo.scss */
+  .requisites-block__text:first-child {
+    margin-bottom: 20px; }

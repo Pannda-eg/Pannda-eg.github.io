@@ -1,0 +1,1125 @@
+@font-face {
+  font-family: 'Tharlon';
+  src: url("../fonts/Tharlon-Regular.ttf");
+  font-weight: normal;
+  font-style: normal; }
+/* line 22, tablet-personal.scss */
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Open Sans';
+  color: #383838; }
+
+/* line 30, tablet-personal.scss */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0 10px; }
+
+/* line 38, tablet-personal.scss */
+img {
+  width: 100%; }
+
+/* line 42, tablet-personal.scss */
+a, a:hover {
+  text-decoration: none;
+  color: #383838; }
+
+/* line 47, tablet-personal.scss */
+li {
+  list-style-type: none; }
+
+/* line 52, tablet-personal.scss */
+.header-topL, .menu-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 38px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid rgba(56, 56, 56, 0.3); }
+  /* line 58, tablet-personal.scss */
+  .header-topL .menu, .header-topL .menu-link, .menu-link .menu, .menu-link .menu-link {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 38px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 0; }
+    /* line 64, tablet-personal.scss */
+    .header-topL .menu__item, .header-topL .menu-link__item, .menu-link .menu__item, .menu-link .menu-link__item {
+      line-height: 38px; }
+    /* line 67, tablet-personal.scss */
+    .header-topL .menu__link, .header-topL .menu-link__link, .menu-link .menu__link, .menu-link .menu-link__link {
+      display: inline-block;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 0.9375rem;
+      padding: 0 10px; }
+  /* line 77, tablet-personal.scss */
+  .header-topL .menu__item:nth-child(1) .menu__link,
+  .header-topL .menu-link__item:nth-child(1) .menu-link__link, .menu-link .menu__item:nth-child(1) .menu__link,
+  .menu-link .menu-link__item:nth-child(1) .menu-link__link {
+    padding-left: 0; }
+  /* line 82, tablet-personal.scss */
+  .header-topL .menu__item:nth-child(2) .menu__link,
+  .header-topL .menu-link__item:nth-child(2) .menu-link__link, .menu-link .menu__item:nth-child(2) .menu__link,
+  .menu-link .menu-link__item:nth-child(2) .menu-link__link {
+    position: relative; }
+    /* line 85, tablet-personal.scss */
+    .header-topL .menu__item:nth-child(2) .menu__link::before,
+    .header-topL .menu-link__item:nth-child(2) .menu-link__link::before, .menu-link .menu__item:nth-child(2) .menu__link::before,
+    .menu-link .menu-link__item:nth-child(2) .menu-link__link::before {
+      content: '';
+      position: absolute;
+      display: block;
+      top: 50%;
+      margin-top: -6px;
+      left: 0;
+      width: 1px;
+      height: 12px;
+      background: #383838; }
+    /* line 95, tablet-personal.scss */
+    .header-topL .menu__item:nth-child(2) .menu__link::after,
+    .header-topL .menu-link__item:nth-child(2) .menu-link__link::after, .menu-link .menu__item:nth-child(2) .menu__link::after,
+    .menu-link .menu-link__item:nth-child(2) .menu-link__link::after {
+      content: '';
+      position: absolute;
+      display: block;
+      top: 50%;
+      margin-top: -6px;
+      right: 0;
+      width: 1px;
+      height: 12px;
+      background: #383838; }
+  /* line 107, tablet-personal.scss */
+  .header-topL .menu__item:nth-child(3) .menu__link,
+  .header-topL .menu-link__item:nth-child(3) .menu-link__link, .menu-link .menu__item:nth-child(3) .menu__link,
+  .menu-link .menu-link__item:nth-child(3) .menu-link__link {
+    padding-right: 0; }
+
+/* line 113, tablet-personal.scss */
+.link-block {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 20px; }
+
+/* line 119, tablet-personal.scss */
+.menu-link {
+  border: none;
+  margin-bottom: 0; }
+
+/* line 124, tablet-personal.scss */
+.header-topR,
+.header-topM,
+.header-topL {
+  background: #fff;
+  position: relative;
+  z-index: 200; }
+
+/* line 132, tablet-personal.scss */
+.header-topM {
+  height: 38px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid rgba(56, 56, 56, 0.3); }
+  /* line 137, tablet-personal.scss */
+  .header-topM .client-link {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.9375rem;
+    line-height: 38px;
+    color: #8C46BA;
+    display: inline-block; }
+
+/* line 148, tablet-personal.scss */
+.link-block__link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.9375rem;
+  line-height: 38px;
+  color: #8C46BA;
+  display: inline-block; }
+
+/* line 159, tablet-personal.scss */
+.header-topR {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  height: 38px;
+  border-bottom: 1px solid rgba(56, 56, 56, 0.3); }
+  /* line 165, tablet-personal.scss */
+  .header-topR .register-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    /* line 170, tablet-personal.scss */
+    .header-topR .register-block__link {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 0.9375rem; }
+      /* line 176, tablet-personal.scss */
+      .header-topR .register-block__link:first-child {
+        padding-right: 10px;
+        position: relative; }
+        /* line 179, tablet-personal.scss */
+        .header-topR .register-block__link:first-child::before {
+          content: '';
+          position: absolute;
+          display: block;
+          top: 50%;
+          margin-top: -6px;
+          right: 0;
+          width: 1px;
+          height: 12px;
+          background: #383838; }
+      /* line 190, tablet-personal.scss */
+      .header-topR .register-block__link:last-child {
+        padding-left: 10px; }
+
+/* line 197, tablet-personal.scss */
+.header-middleL,
+.header-middleM,
+.header-middleR {
+  position: relative;
+  z-index: 200;
+  background: #fff; }
+
+/* line 205, tablet-personal.scss */
+.header-middleL {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 81px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+/* line 211, tablet-personal.scss */
+.logo-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+  width: 100%; }
+  /* line 217, tablet-personal.scss */
+  .logo-block__logo {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 1.5rem; }
+    /* line 221, tablet-personal.scss */
+    .logo-block__logo:hover {
+      color: #383838; }
+  /* line 225, tablet-personal.scss */
+  .logo-block__text {
+    font-weight: 600;
+    font-size: 0.75rem;
+    margin-bottom: 4px;
+    letter-spacing: 0.04em; }
+
+/* line 233, tablet-personal.scss */
+.header-middleM {
+  height: 81px; }
+  /* line 235, tablet-personal.scss */
+  .header-middleM .tel-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 100%; }
+    /* line 241, tablet-personal.scss */
+    .header-middleM .tel-block__text {
+      margin-bottom: 5px;
+      font-size: 0.8125rem;
+      opacity: 0.7;
+      margin-bottom: 0; }
+    /* line 247, tablet-personal.scss */
+    .header-middleM .tel-block__tel {
+      font-size: 1.5rem;
+      margin-bottom: 1px;
+      line-height: 1.5rem;
+      margin-bottom: 0; }
+
+/* line 257, tablet-personal.scss */
+.header-middleR {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 81px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  /* line 263, tablet-personal.scss */
+  .header-middleR .basket {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    width: 32px;
+    height: 28px;
+    position: relative;
+    letter-spacing: 0.04em;
+    font-size: 0.875rem; }
+    /* line 272, tablet-personal.scss */
+    .header-middleR .basket::after {
+      content: '';
+      position: absolute;
+      display: block;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: url(../img/basket.svg) no-repeat center; }
+  /* line 283, tablet-personal.scss */
+  .header-middleR .price {
+    margin-bottom: 0;
+    margin-left: 19px;
+    letter-spacing: 0.02em;
+    font-size: 1.375rem; }
+
+/* line 291, tablet-personal.scss */
+.section-menu {
+  background: -webkit-gradient(linear, left top, right top, from(#E056D2), to(#7C43B6));
+  background: linear-gradient(90deg, #E056D2 0%, #7C43B6 100%);
+  position: relative;
+  z-index: 200; }
+
+/* line 297, tablet-personal.scss */
+.way-text {
+  margin-top: 5px;
+  margin-bottom: 10px; }
+
+/* line 302, tablet-personal.scss */
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 1px solid #fff;
+  width: 80%;
+  margin-top: -8px; }
+
+/* line 309, tablet-personal.scss */
+.input-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 32px;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  /* line 315, tablet-personal.scss */
+  .input-block__input {
+    font-size: 0.8125rem;
+    opacity: .7;
+    padding: 0 5px 0 0;
+    border: none;
+    width: 80%;
+    background: transparent;
+    color: #fff; }
+  /* line 324, tablet-personal.scss */
+  .input-block__submit {
+    width: 32px;
+    height: 32px;
+    border: none;
+    background: url(../img/search2.svg) no-repeat center; }
+
+/* line 332, tablet-personal.scss */
+.page-mobileR,
+.page-mobileL,
+.page-mobileM {
+  height: 56px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  z-index: 200; }
+
+/* line 343, tablet-personal.scss */
+.page-mobileL__delivery-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 0.875rem;
+  color: #fff;
+  margin-bottom: 0; }
+  /* line 349, tablet-personal.scss */
+  .page-mobileL__delivery-text img {
+    margin-top: -6px;
+    margin-right: 5px;
+    width: auto; }
+
+/* line 357, tablet-personal.scss */
+.page-mobileR {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end; }
+  /* line 359, tablet-personal.scss */
+  .page-mobileR .burger img {
+    width: auto; }
+
+/* line 364, tablet-personal.scss */
+.mob-menu {
+  display: none;
+  background: #FAF5FF;
+  padding-top: 176px;
+  padding-bottom: 120px;
+  margin-bottom: 26px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100; }
+  /* line 376, tablet-personal.scss */
+  .mob-menu::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 176px;
+    background: #fff;
+    z-index: 120; }
+
+/* line 389, tablet-personal.scss */
+.mob {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+/* line 394, tablet-personal.scss */
+.mobile-menu {
+  width: 45%;
+  margin-bottom: 18px; }
+
+/* line 399, tablet-personal.scss */
+.mobile-menu, .sub-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  /* line 402, tablet-personal.scss */
+  .mobile-menu__item, .sub-menu__item {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    border-bottom: 1px solid rgba(56, 56, 56, 0.2);
+    -webkit-transition: 1s;
+    transition: 1s; }
+    /* line 408, tablet-personal.scss */
+    .mobile-menu__item img, .sub-menu__item img {
+      width: auto; }
+  /* line 412, tablet-personal.scss */
+  .mobile-menu__link, .sub-menu__link {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    line-height: 40px;
+    letter-spacing: 0.01em;
+    font-size: 0.9375rem;
+    padding-right: 10px; }
+
+/* line 424, tablet-personal.scss */
+.sub-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 0;
+  overflow: hidden;
+  -webkit-transition: 1s;
+  transition: 1s;
+  width: 100%; }
+  /* line 430, tablet-personal.scss */
+  .sub-menu__item {
+    width: 100%; }
+  /* line 433, tablet-personal.scss */
+  .sub-menu__item:first-child {
+    border-top: 1px solid rgba(56, 56, 56, 0.2); }
+  /* line 436, tablet-personal.scss */
+  .sub-menu__item:last-child {
+    border: none; }
+  /* line 439, tablet-personal.scss */
+  .sub-menu__link {
+    padding: 0 15px; }
+
+/* line 444, tablet-personal.scss */
+.mobile-menu__item:hover .sub-menu,
+.mobile-menu__item:focus .sub-menu {
+  height: 170px; }
+
+/* line 449, tablet-personal.scss */
+.header-middleR {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end; }
+  /* line 451, tablet-personal.scss */
+  .header-middleR .form {
+    display: none; }
+
+/* line 457, tablet-personal.scss */
+.section-img {
+  padding-top: 20px;
+  margin-bottom: 32px; }
+
+/* line 462, tablet-personal.scss */
+.block-image {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 98%;
+  height: 100%; }
+  /* line 468, tablet-personal.scss */
+  .block-image img {
+    border-radius: 3px;
+    width: 100%; }
+  /* line 473, tablet-personal.scss */
+  .block-image__text {
+    position: absolute;
+    top: 40%;
+    right: 4%;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    font-weight: 900;
+    font-family: 'Roboto'; }
+
+/* line 484, tablet-personal.scss */
+.block-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start; }
+  /* line 491, tablet-personal.scss */
+  .block-img .img-item {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 49%; }
+    /* line 496, tablet-personal.scss */
+    .block-img .img-item img {
+      width: 100%;
+      height: 100%; }
+    /* line 501, tablet-personal.scss */
+    .block-img .img-item__text {
+      position: absolute;
+      font-weight: 900;
+      font-family: 'Roboto'; }
+  /* line 508, tablet-personal.scss */
+  .block-img .img-item:nth-child(1),
+  .block-img .img-item:nth-child(2) {
+    margin-bottom: 10px; }
+  /* line 513, tablet-personal.scss */
+  .block-img .img-item:nth-child(1) .img-item__text {
+    top: 30%;
+    right: 10%; }
+  /* line 517, tablet-personal.scss */
+  .block-img .img-item:nth-child(2) .img-item__text {
+    top: 30%;
+    left: 13%; }
+  /* line 521, tablet-personal.scss */
+  .block-img .img-item:nth-child(3) .img-item__text {
+    top: 15%;
+    left: 5%; }
+  /* line 525, tablet-personal.scss */
+  .block-img .img-item:nth-child(4) .img-item__text {
+    top: 28%;
+    left: 13%; }
+
+/* line 531, tablet-personal.scss */
+.top-title {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  border: 2px solid #383838;
+  border-left: 0;
+  border-right: 0;
+  line-height: 50px; }
+
+/* line 537, tablet-personal.scss */
+.cabinet-page {
+  padding-top: 24px;
+  padding-bottom: 73px; }
+  /* line 541, tablet-personal.scss */
+  .cabinet-page__title {
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-bottom: 40px; }
+
+/* line 551, tablet-personal.scss */
+.title-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 40px; }
+  /* line 557, tablet-personal.scss */
+  .title-block__link {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    line-height: 60px;
+    background: #FAF5FF;
+    letter-spacing: 0.02em;
+    font-weight: bold; }
+    /* line 566, tablet-personal.scss */
+    .title-block__link:hover, .title-block__link:focus {
+      background: #8B46BA;
+      color: #fff; }
+
+/* line 573, tablet-personal.scss */
+.block-form {
+  display: block;
+  width: 100%; }
+
+/* line 578, tablet-personal.scss */
+.form-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 40px; }
+
+/* line 585, tablet-personal.scss */
+.input-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: auto; }
+
+/* line 592, tablet-personal.scss */
+.item {
+  width: 45%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  /* line 597, tablet-personal.scss */
+  .item label {
+    letter-spacing: 0.02em;
+    font-size: 0.875rem; }
+  /* line 602, tablet-personal.scss */
+  .item input {
+    border: 1px solid #383838;
+    border-radius: 3px;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    font-size: 0.875rem;
+    padding: 0 5px;
+    margin-bottom: 12px; }
+
+/* line 613, tablet-personal.scss */
+button, .exit {
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  width: 315px;
+  background: #8B46BA;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 3px;
+  border: 1px solid transparent;
+  line-height: 40px;
+  margin: 40px auto; }
+
+/* line 627, tablet-personal.scss */
+.exit {
+  display: block;
+  color: #383838;
+  border-color: #383838;
+  background: transparent;
+  margin: 0; }
+
+/* line 635, tablet-personal.scss */
+.order-item {
+  border: 1px solid rgba(56, 56, 56, 0.2);
+  border-left: none;
+  border-right: none;
+  margin-bottom: 20px;
+  padding-top: 20px; }
+
+/* line 643, tablet-personal.scss */
+.order-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  /* line 647, tablet-personal.scss */
+  .order-top__name {
+    letter-spacing: 0.02em;
+    font-weight: 600;
+    font-size: 1.25rem;
+    text-align: center; }
+  /* line 653, tablet-personal.scss */
+  .order-top__info {
+    letter-spacing: 0.02em;
+    font-weight: 600;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+  /* line 659, tablet-personal.scss */
+  .order-top__status {
+    color: #219653;
+    margin-left: 47px; }
+  /* line 663, tablet-personal.scss */
+  .order-top__status.yellow {
+    color: #F2C94C; }
+
+/* line 668, tablet-personal.scss */
+.product-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 80%; }
+
+/* line 675, tablet-personal.scss */
+.product-page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+  width: 40%; }
+
+/* line 681, tablet-personal.scss */
+.info-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 30px; }
+  /* line 686, tablet-personal.scss */
+  .info-block__name {
+    width: 70%;
+    letter-spacing: 0.01em;
+    font-size: 0.9375rem;
+    line-height: 1.1rem; }
+  /* line 692, tablet-personal.scss */
+  .info-block__number {
+    letter-spacing: 0.02em; }
+
+/* line 697, tablet-personal.scss */
+.price {
+  text-align: right;
+  letter-spacing: 0.02em;
+  font-weight: 600; }
+  /* line 702, tablet-personal.scss */
+  .price .numeral {
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin-left: 33px; }
+
+/* line 709, tablet-personal.scss */
+.ordertwo-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  /* line 712, tablet-personal.scss */
+  .ordertwo-top__name {
+    text-align: center;
+    margin-bottom: 0;
+    width: 100%;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.5rem; }
+
+/* line 723, tablet-personal.scss */
+.ordertwo-toptwo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 34px;
+  margin-bottom: 26px; }
+  /* line 729, tablet-personal.scss */
+  .ordertwo-toptwo p {
+    margin-bottom: 0;
+    letter-spacing: 0.02em;
+    font-weight: 600; }
+    /* line 733, tablet-personal.scss */
+    .ordertwo-toptwo p span {
+      margin-left: 7px; }
+  /* line 740, tablet-personal.scss */
+  .ordertwo-toptwo__price span {
+    font-size: 1.5rem;
+    font-weight: normal; }
+  /* line 745, tablet-personal.scss */
+  .ordertwo-toptwo__status {
+    color: #219653; }
+
+/* line 750, tablet-personal.scss */
+.button-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+/* line 755, tablet-personal.scss */
+.address {
+  letter-spacing: 0.02em;
+  font-weight: 600; }
+  /* line 759, tablet-personal.scss */
+  .address span {
+    display: block;
+    font-weight: normal; }
+
+/* line 765, tablet-personal.scss */
+.button-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%; }
+  /* line 771, tablet-personal.scss */
+  .button-block__link {
+    width: 30%;
+    border-radius: 3px;
+    border: 1px solid transparent;
+    background: #8B46BA;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    font-size: 0.875rem;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    margin-top: 24px; }
+  /* line 786, tablet-personal.scss */
+  .button-block__link:last-child {
+    background: transparent;
+    border-color: #383838;
+    color: #383838; }
+
+/* line 795, tablet-personal.scss */
+.footer {
+  color: #fff;
+  background: #383838;
+  padding-top: 37px; }
+
+/* line 801, tablet-personal.scss */
+.block-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  /* line 804, tablet-personal.scss */
+  .block-link__link {
+    display: inline-block;
+    color: #fff;
+    font-size: 0.9375rem;
+    font-family: 'Roboto';
+    margin-bottom: 25px; }
+    /* line 810, tablet-personal.scss */
+    .block-link__link:hover, .block-link__link:focus {
+      color: #fff; }
+  /* line 814, tablet-personal.scss */
+  .block-link__link:nth-child(7), .block-link__link:nth-child(8) {
+    display: none; }
+
+/* line 820, tablet-personal.scss */
+.block-link2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  /* line 823, tablet-personal.scss */
+  .block-link2__link {
+    display: inline-block;
+    color: #fff;
+    font-size: 0.9375rem;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    margin-bottom: 10px; }
+    /* line 830, tablet-personal.scss */
+    .block-link2__link:hover, .block-link2__link:focus {
+      color: #fff; }
+
+/* line 836, tablet-personal.scss */
+.contact-block {
+  padding-top: 10px; }
+  /* line 839, tablet-personal.scss */
+  .contact-block .form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+    width: 100%; }
+  /* line 845, tablet-personal.scss */
+  .contact-block .input-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 32px;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+    /* line 851, tablet-personal.scss */
+    .contact-block .input-block__input {
+      font-size: 0.8125rem;
+      opacity: .7;
+      padding: 0 5px 2px 0;
+      border: none;
+      width: 90%;
+      color: #fff;
+      background: transparent; }
+    /* line 860, tablet-personal.scss */
+    .contact-block .input-block__submit {
+      width: 32px;
+      height: 32px;
+      border: none;
+      background: url(../img/search2.svg) no-repeat center; }
+  /* line 868, tablet-personal.scss */
+  .contact-block .tel-block {
+    margin-top: 32px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 50%;
+    height: 100%; }
+    /* line 876, tablet-personal.scss */
+    .contact-block .tel-block__text {
+      margin-bottom: 5px;
+      font-size: 0.8125rem;
+      opacity: 0.7;
+      color: #fff; }
+    /* line 882, tablet-personal.scss */
+    .contact-block .tel-block__tel {
+      font-size: 1.5rem;
+      margin-bottom: 1px;
+      line-height: 1.5rem;
+      color: #fff; }
+  /* line 890, tablet-personal.scss */
+  .contact-block__delivery-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 0;
+    color: #fff;
+    font-size: 0.875rem;
+    line-height: 1.1875rem;
+    letter-spacing: 0.02em;
+    margin-top: 15px; }
+    /* line 901, tablet-personal.scss */
+    .contact-block__delivery-text img {
+      margin-top: -5px;
+      margin-right: 6px;
+      width: auto; }
+
+/* line 909, tablet-personal.scss */
+.catalog {
+  display: none; }
+
+/* line 914, tablet-personal.scss */
+.card-block__text {
+  color: #fff;
+  font-size: 0.8125rem;
+  opacity: .7;
+  margin-bottom: 12px;
+  margin-top: 37px; }
+
+/* line 923, tablet-personal.scss */
+.card-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  height: auto; }
+
+/* line 931, tablet-personal.scss */
+.card-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 24%;
+  margin: 0 !important; }
+  /* line 935, tablet-personal.scss */
+  .card-link img {
+    width: auto; }
+
+/* line 940, tablet-personal.scss */
+.requisites-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-top: 1px solid rgba(196, 196, 196, 0.3);
+  margin-top: 20px;
+  padding-top: 24px;
+  padding-bottom: 24px; }
+  /* line 948, tablet-personal.scss */
+  .requisites-block__text {
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #fff;
+    margin-bottom: 0px; }
+  /* line 954, tablet-personal.scss */
+  .requisites-block__text:first-child {
+    margin-bottom: 20px; }
+
+@media (min-width: 992px) {
+  /* line 961, tablet-personal.scss */
+  .slick-list, .draggable {
+    padding: 0px !important; }
+
+  /* line 966, tablet-personal.scss */
+  .advantages-item__text {
+    width: 80%; } }

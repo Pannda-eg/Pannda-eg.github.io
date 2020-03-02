@@ -1,0 +1,115 @@
+/* line 1, registration.scss */
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Open Sans';
+  color: #383838; }
+
+/* line 9, registration.scss */
+.container {
+  width: 100%;
+  max-width: 1110px;
+  padding: 0 5px;
+  margin: 0 auto; }
+
+/* line 16, registration.scss */
+a, a:hover {
+  text-decoration: none;
+  color: #383838; }
+
+/* line 21, registration.scss */
+li {
+  list-style-type: none; }
+
+/* line 27, registration.scss */
+.registration-section {
+  height: 100vh;
+  background: url(../img/2793626.svg) no-repeat center;
+  background-size: cover; }
+
+/* line 34, registration.scss */
+.logo {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  display: inline-block;
+  margin-bottom: 70px; }
+
+/* line 42, registration.scss */
+.title {
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  font-size: 1.5rem;
+  margin-bottom: 0px; }
+
+/* line 49, registration.scss */
+.page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh; }
+
+/* line 57, registration.scss */
+.form-reg {
+  width: 30%;
+  margin: 0 auto; }
+
+/* line 62, registration.scss */
+.page-input {
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 3px; }
+  /* line 66, registration.scss */
+  .page-input__input {
+    width: 100%;
+    line-height: 40px;
+    border: 1px solid #383838;
+    letter-spacing: 0.02em;
+    font-size: 0.875rem;
+    padding: 0 5px;
+    border-radius: 3px; }
+  /* line 75, registration.scss */
+  .page-input__submit {
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 0.875rem;
+    text-align: center;
+    background: #8B46BA;
+    border: 1px solid transparent;
+    width: 100%;
+    line-height: 40px;
+    font-weight: bold;
+    border-radius: 3px; }
+
+/* line 90, registration.scss */
+.link {
+  text-align: center;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #8B46BA;
+  margin-top: 20px; }
+
+/* line 97, registration.scss */
+.link-form {
+  display: inline-block;
+  width: 90%;
+  text-align: right;
+  margin-top: 10px; }
+
+@media (max-width: 1200px) {
+  /* line 105, registration.scss */
+  .form-reg {
+    width: 315px; } }
