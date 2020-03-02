@@ -663,7 +663,7 @@ button, .exit {
   color: #383838;
   border-color: #383838;
   background: transparent;
-  margin: 0; }
+  margin: 0 auto; }
 
 /* line 575, mobile-personal.scss */
 .order-item {
