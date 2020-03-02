@@ -574,10 +574,13 @@ li {
   margin-bottom: 40px; }
   /* line 498, mobile-personal.scss */
   .title-block__link {
-    display: inline-block;
+    display: inline-flex;
+    -ms-align-items: center;
+    align-items: center;
+    justify-content: center;
     width: 50%;
     text-align: center;
-    line-height: 60px;
+    height: 60px;
     background: #FAF5FF;
     letter-spacing: 0.02em;
     font-weight: bold; }
