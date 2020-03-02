@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+	<!-- fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Roboto:400,900&display=swap" rel="stylesheet">
+
+	<!-- slider -->
+	<link rel="stylesheet" href="../scss/library/slick.css">
+	<link rel="stylesheet" href="../scss/library/slick.theme.css">
+
+	<!-- main style -->
+	<link rel="stylesheet" href="../scss/tablet-baskettwo.css">
+
+	<title>Flowers</title>
+</head>
+<body>
+
+	<header class="header">
+		<div class="container">
+
+			<div class="row no-gutters">
+				<div class="col-4 flex-fill">
+					<div class="header-topL">
+						<ul class="menu">
+							<li class="menu__item"><a href="#" class="menu__link">Оплата</a></li>
+							<li class="menu__item"><a href="#" class="menu__link">Доставка</a></li>
+							<li class="menu__item"><a href="#" class="menu__link">Контакты</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="col-5 flex-fill">
+					<div class="header-topM">
+						<a href="#" class="client-link">Корпоративным клиентам</a>
+					</div>
+				</div>
+
+				<div class="col-3 flex-fill">
+					<div class="header-topR">
+						<div class="register-block">
+							<a href="#" class="register-block__link">Вход</a>
+							<a href="#" class="register-block__link">Регистрация</a>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+			<div class="row no-gutters">
+				<div class="col-4 flex-fill">
+					<div class="header-middleL">
+
+						<div class="logo-block">
+							<a href="#" class="logo-block__logo">Логотип</a>
+							<p class="logo-block__text">Доставка цветов в Москве</p>
+						</div>
+
+					</div>
+				</div>
+
+				<div class="col-5 flex-fill">
+					<div class="header-middleM">
+						<div class="tel-block">
+							<p class="tel-block__text">Бесплатно. Круглосуточно.</p>
+							<p class="tel-block__tel">8-800-000-0000</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-3 flex-fill">
+					<div class="header-middleR">
+						<a href="#" class="basket">15</a>
+						<p class="price">13 599 ₽</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div class="section-menu">
+		<div class="container">
+			<div class="row no-gutters">
+
+				<div class="col-4 col-lg-4 flex-fill">
+					<div class="page-mobile page-mobileL">
+						<p class="page-mobileL__delivery-text"><img src="../img/delivery2.svg" alt="Доставка">Быстрая доставка 1-2 часа</p>
+					</div>
+				</div>
+
+				<div class="col-6 col-lg-4 flex-fill">
+					<div class="page-mobile page-mobileM">
+						<form action="#" class="form">
+							<div class="input-block">
+								<input type="search" name="text" placeholder="Поиск букетов и подарков" class="input-block__input">
+								<input type="submit" value="" class="input-block__submit">
+							</div>
+						</form>
+					</div>
+				</div>
+
+				<div class="col-2 col-lg-4 flex-fill">
+					<div class="page-mobile page-mobileR">
+						<a href="#" class="burger" id="burger" onclick="openbox('mob-menu'); return false"><img src="../img/burger.svg" alt=""></a>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<div class="mob-menu" id="mob-menu">
+		<div class="container">
+			<div class="row no-gutters">
+				<div class="col-12">
+
+					<div class="mob" id="menu">
+						<ul class="mobile-menu">
+							<li class="mobile-menu__item"><a href="#" class="mobile-menu__link">8 Марта</a></li>
+							<li class="mobile-menu__item">
+								<a href="#" class="mobile-menu__link">Розы <img src="../img/mediamenu.svg" alt=""></a>
+								<ul class="sub-menu">
+									<li class="sub-menu__item"><a href="#" class="sub-menu__link">Кустовые</a></li>
+									<li class="sub-menu__item"><a href="#" class="sub-menu__link">Красные</a></li>
+									<li class="sub-menu__item"><a href="#" class="sub-menu__link">Белые</a></li>
+									<li class="sub-menu__item"><a href="#" class="sub-menu__link">Розовые</a></li>
+								</ul>
+							</li>
+							<li class="mobile-menu__item"><a href="#" class="mobile-menu__link">ТОП-20</a></li>
+							<li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Букеты <img src="../img/mediamenu.svg" alt=""></a>
+								<ul class="sub-menu">
+									<li class="sub-menu__item"><a href="#" class="sub-menu__link">Кустовые</a></li>
+									<li class="sub-menu__item"><a href="#" class="sub-menu__link">Красные</a></li>
+									<li class="sub-menu__item"><a href="#" class="sub-menu__link">Белые</a></li>
+									<li class="sub-menu__item"><a href="#" class="sub-menu__link">Розовые</a></li>
+								</ul>
+							</li>
+							<li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Цветы <img src="../img/mediamenu.svg" alt=""></a>
+								<ul class="sub-menu">
+									<li class="sub-menu__item"><a href="#" class="sub-menu__link">Кустовые</a></li>
+									<li class="sub-menu__item"><a href="#" class="sub-menu__link">Красные</a></li>
+									<li class="sub-menu__item"><a href="#" class="sub-menu__link">Белые</a></li>
+									<li class="sub-menu__item"><a href="#" class="sub-menu__link">Розовые</a></li>
+								</ul>
+							</li>
+						</ul>
+						<ul class="mobile-menu">
+							<li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Подарки <img src="../img/mediamenu.svg" alt=""></a>
+								<ul class="sub-menu">
+									<li class="sub-menu__item"><a href="#" class="sub-menu__link">Кустовые</a></li>
+									<li class="sub-menu__item"><a href="#" class="sub-menu__link">Красные</a></li>
+									<li class="sub-menu__item"><a href="#" class="sub-menu__link">Белые</a></li>
+									<li class="sub-menu__item"><a href="#" class="sub-menu__link">Розовые</a></li>
+								</ul>
+							</li>
+							<li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Корзины</a></li>
+							<li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Коробки <img src="../img/mediamenu.svg" alt=""></a>
+								<ul class="sub-menu">
+									<li class="sub-menu__item"><a href="#" class="sub-menu__link">Кустовые</a></li>
+									<li class="sub-menu__item"><a href="#" class="sub-menu__link">Красные</a></li>
+									<li class="sub-menu__item"><a href="#" class="sub-menu__link">Белые</a></li>
+									<li class="sub-menu__item"><a href="#" class="sub-menu__link">Розовые</a></li>
+								</ul>
+							</li>
+							<li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Акции <img src="../img/mediamenu.svg" alt=""></a>
+								<ul class="sub-menu">
+									<li class="sub-menu__item"><a href="#" class="sub-menu__link">Кустовые</a></li>
+									<li class="sub-menu__item"><a href="#" class="sub-menu__link">Красные</a></li>
+									<li class="sub-menu__item"><a href="#" class="sub-menu__link">Белые</a></li>
+									<li class="sub-menu__item"><a href="#" class="sub-menu__link">Розовые</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="section-basket">
+		<div class="container">
+			<p class="way-text"><span>Главная</span> - <span>Корзина</span> - <span>Оформление заказа</span></p>
+
+			<div class="row">
+				<div class="col-12">
+					<div class="contant">
+
+						<p class="contant__title">Оформление заказа</p>
+
+						<div class="total-block">
+							<p class="total-block__text">Ваш заказ на сумму:</p>
+							<p class="total-block__price">10 787 ₽</p>
+						</div>
+
+						<div class="basket-item">
+							<div class="product">
+								<img src="../img/basketimg.svg" alt="">
+								<div class="product-info">
+									<p class="product-info__title">Очень длинное наименование товара</p>
+									<p class="product-info__quantity">1 шт.</p>
+									<p class="product-info__price">3 599 ₽</p>
+								</div>
+							</div>
+
+							<div class="product">
+								<img src="../img/basketimg.svg" alt="">
+								<div class="product-info">
+									<p class="product-info__title">Очень длинное наименование товара</p>
+									<p class="product-info__quantity">1 шт.</p>
+									<p class="product-info__price">3 599 ₽</p>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="contact-block">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+
+					<form action="#" class="contact-form">
+						<p class="contact-form__title">Информация для связи</p>
+						<div class="contact-input">
+							<input type="text" class="contact-input__name" placeholder="Ваше имя">
+							<input type="email" class="contact-input__email" placeholder="Ваш Email">
+							<input type="tel" class="contact-input__tel" placeholder="Ваш номер телефона">
+						</div>
+
+						<div class="radio-block">
+							<input type="radio" id="radio1"><label for="radio1">Связаться со мной для уточнения заказа</label>
+						</div>
+
+						<p class="contact-form__title">Дата и время доставки</p>
+						<div class="data-block">
+							<div class="input-data">
+								<input type="text" class="input-data__data" placeholder="Выберите дату доставки">
+								<a href="#">
+									<img src="../img/calendar.svg" alt="">
+								</a>
+							</div>
+							<div class="radio-block">
+								<input type="radio" id="radio2"><label for="radio2" class="bold">Ближайшая доставка<span>*Доставка осуществляется в течении 1-2 часов</span></label>
+							</div>
+						</div>
+
+						<p class="contact-form__title">Адрес доставки</p>
+						<div class="address-block">
+							<textarea type="text" class="address-block__address" placeholder="г. Москва"></textarea>
+							<div class="radio-block">
+								<input type="radio" id="radio3"><label for="radio3">Адрес доставки уточнить у оператора</span></label>
+							</div>
+						</div>
+
+						<p class="contact-form__title">Комментарий к заказу</p>
+						<div class="comment-block">
+							<textarea placeholder="Введите ваш комментарий" class="comment-block__comment"></textarea>
+						</div>
+
+						<p class="contact-form__title">Способы оплаты</p>
+						<div class="payment-block">
+							<input type="radio" id="radio4"><label for="radio4" class="bold">Онлайн<span>*Google Pay, Apple Pay, Visa, MasterCard</span></label>
+							<input type="radio" id="radio5"><label for="radio5">Курьеру при получении</label>
+						</div>
+
+						<button type="submit" class="submit">Оформить заказ</button>
+
+					</form>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="row no-gutters">
+				<div class="col-5">
+					<div class="block-link">
+						<a href="#" class="block-link__link">Оплата</a>
+						<a href="#" class="block-link__link">Доставка</a>
+						<a href="#" class="block-link__link">Корп.клиентам</a>
+						<a href="#" class="block-link__link">Контакты</a>
+						<a href="#" class="block-link__link">Публичная офферта</a>
+						<a href="#" class="block-link__link">Политика<br>конфиденциальности</a>
+						<a href="#" class="block-link__link">Круглосуточно</a>
+						<a href="#" class="block-link__link">8-800-000-0000</a>
+					</div>
+				</div>
+				<div class="col-3">
+					<div class="block-link2">
+						<a href="#" class="block-link2__link">8 Марта</a>
+						<a href="#" class="block-link2__link">Розы</a>
+						<a href="#" class="block-link2__link">Топ-20</a>
+						<a href="#" class="block-link2__link">Букеты</a>
+						<a href="#" class="block-link2__link">Цветы</a>
+						<a href="#" class="block-link2__link">Подарки</a>
+						<a href="#" class="block-link2__link">Корзины</a>
+						<a href="#" class="block-link2__link">Коробки</a>
+						<a href="#" class="block-link2__link">Акции</a>
+					</div>
+				</div>
+				<div class="col-4">
+					<div class="contact-block">
+						<form action="#" class="form">
+							<div class="input-block">
+								<input type="search" name="text" placeholder="Поиск букетов и подарков" class="input-block__input">
+								<input type="submit" value="" class="input-block__submit">
+							</div>
+						</form>
+
+						<div class="tel-block">
+							<p class="tel-block__text">Бесплатно. Круглосуточно.</p>
+							<p class="tel-block__tel">8-800-000-0000</p>
+						</div>
+
+						<p class="contact-block__delivery-text"><img src="../img/delivery2.svg" alt="Доставка">Быстрая доставка 1-2 часа</p>
+
+						<div class="card-block">
+							<p class="card-block__text">Принемаем:</p>
+							<div class="card-container">
+								<a href="#" class="card-link"><img src="../img/ApplePay.svg" alt="ApplePay"></a>
+								<a href="#" class="card-link"><img src="../img/GooglePay.svg" alt="Google Pay"></a>
+								<a href="#" class="card-link"><img src="../img/MasterCard.svg" alt="MasterCard"></a>
+								<a href="#" class="card-link"><img src="../img/Visa.svg" alt="Visa"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="requisites-block">
+			<p class="requisites-block__text">© 2020. Все права защищены.</p>
+			<p class="requisites-block__text">Название оргинизации</p>
+			<p class="requisites-block__text">Реквизиты организации</p>
+		</div>
+	</footer>
+
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	<script src="../js/library/slick.min.js"></script>
+	<script src="../js/main.js"></script>
+</body>
+</html>
