@@ -726,7 +726,7 @@
     width: 50%;
     margin: 30px auto 0;
     text-align: center; } }
-@media (max-width: 575px) {
+@media (max-width: 767px) {
   /* line 613, media.scss */
   .wrapper-one__title, .wrapper-two__title, .wrapper-three__title, .wrapper-four__title, .wrapper-five__title,
   .wrapper-six__title, .wrapper-seven__title, .wrapper-eight__title, .wrapper-nine__title, .wrapper-ten__title,
