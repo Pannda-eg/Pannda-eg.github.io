@@ -1588,3 +1588,7 @@ a, a:hover {
   /* line 1461, main.scss */
   .page-btn a:last-child {
     margin-right: 0; }
+
+.selectItem option {
+  max-width: 100%;
+}
