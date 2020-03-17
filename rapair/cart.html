@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="style/main.css">
+	<link rel="stylesheet" href="style/service.css">
+	<link rel="stylesheet" href="style/media.css">
+
+	<title>Чиним.ру</title>
+
+	<style>
+
+		.main-block .container::before {
+			background: #353535 url(img/bgicon.svg) no-repeat;
+			background-size: auto;
+			background-position: 91% 0;
+			height: 100%;
+			width: 100%;
+		}
+		.main-block .container::after {
+			display: none;
+		}
+
+		.main-header .logo {
+			margin-bottom: 460px;
+		}
+
+		@media (max-width: 1919px) {
+			.main-header .logo {
+				margin-bottom: 400px;
+			}
+		}
+	</style>
+</head>
+<body>
+
+	<div class="mob-menu" id="mobMenu">
+		<a href="#" class="exit-mob" id="exit"><img src="img/exit.svg" alt="exit"></a>
+		<a href="#" class="logo"><img src="img/logo.svg" alt="">Чиним.ру</a>
+
+		<a href="#" class="link">О сервисе</a>
+		<a href="#" class="link">Все услуги</a>
+		<a href="#" class="link">Документы</a>
+		<a href="#" class="link">Контакты</a>
+
+		<p class="liner-mob"></p>
+
+		<p class="soc-title">Мы в социальных сетях</p>
+		<div class="mob-soc">
+			<a href="#" class="mob-soc__link"><img src="img/vk2.svg" alt="vk"></a>
+			<a href="#" class="mob-soc__link"><img src="img/facebook2.svg" alt="facebook"></a>
+			<a href="#" class="mob-soc__link"><img src="img/ok2.svg" alt="ok"></a>
+			<a href="#" class="mob-soc__link"><img src="img/insta2.svg" alt="instagram"></a>
+		</div>
+
+		<div class="mob-footer">
+			<p class="mob-footer__text"><span>Чиним.ру</span>Сервис ремонта</p>
+			<p class="mob-footer__phone">8 (800) 555-55-50</p>
+		</div>
+	</div>
+
+	<div class="main-block services" id="top">
+		<div class="container cart">
+
+			<div class="contact-block">
+				<a href="#" class="burger" id="burger"><img src="img/burger.svg" alt="burger"></a>
+				<a href="tel:+8 (800) 555-55-50" class="phone">+8 (800) 555-55-50</a>
+
+				<div class="soc-block">
+					<a href="#" class="soc"><img src="img/vk.svg" alt="vk"></a>
+					<a href="#" class="soc"><img src="img/facebook.svg" alt="facebook"></a>
+					<a href="#" class="soc"><img src="img/ok.svg" alt="ok"></a>
+					<a href="#" class="soc"><img src="img/insta.svg" alt="instagram"></a>
+				</div>
+			</div>
+
+			<div class="main-header about">
+				<a href="#" class="logo">
+					<span class="img-block">
+						<img src="img/logo.svg" alt="logo">
+					</span>
+
+					Чиним.ру
+				</a>
+
+				<div class="block-image">
+					<p class="block-image__text"><span><img src="img/arrow4.svg" alt="arrow"></span>Заказ</p>
+				</div>
+			</div>
+
+			<div class="search-block services">
+				<div class="menu">
+					<a href="#" class="menu__link">О сервисе</a>
+					<a href="#" class="menu__link">Все услуги</a>
+					<a href="#" class="menu__link">Документы</a>
+					<a href="#" class="menu__link">Контакты</a>
+				</div>
+
+				<div class="chain-block">
+					<p class="chain-block__text">Каталог<span><img src="img/arrow3.svg" alt="arrow"></span></p>
+					<p class="chain-block__text">Электрика<span><img src="img/arrow3.svg" alt="arrow"></span></p>
+					<p class="chain-block__text">Освещение<span><img src="img/arrow3.svg" alt="arrow"></span></p>
+					<p class="chain-block__text active">Повесить люстру</p>
+				</div>
+
+				<form action="#">
+					<div class="input-block">
+						<input type="search" placeholder="Поиск по услугам">
+						<button type="submit" class="btn">Поиск</button>
+					</div>
+				</form>
+			</div>
+
+			<div class="block-services cart">
+				<div class="left-services">
+
+					<div class="block-warranty" style="padding-top: 300px;">
+						<p class="block-warranty__title">Повесить люстру</p>
+						<p class="block-warranty__text"><span class="img-d"><img src="img/surface1.svg" alt=""></span>Бессрочная гарантия</p>
+						<p class="block-warranty__text"><span class="img-d"><img src="img/suface2.svg" alt=""></span>Время работы 1-2 часа</p>
+					</div>
+
+					<div class="price-page">
+						<p class="price-page__price">700 р</p>
+						<p class="price-page__text">Минимальная стоимость работы 1000 р</p>
+					</div>
+
+					<p class="right-services__title left">Оформить заказ по телефону</p>
+					<form action="#" class="form-left">
+						<div class="input-block"><input type="text" placeholder="Ваше имя"></div>
+						<div class="input-block"><input type="tel" placeholder="Телефон"></div>
+						<button class="left-btn" type="submit">Заказать звонок</button>
+					</form>
+				</div>
+
+				<div class="right-services">
+					<p class="right-services__title">Контактная информация</p>
+
+					<form action="#" class="right-form">
+						<div class="input-block"><input type="text" placeholder="Город, населенный пункт"></div>
+						<div class="input-block"><input type="tel" placeholder="Улица, дом, корпус"></div>
+						<div class="input-block"><input type="text" placeholder="Подъезд, этаж, квартира, офис"></div>
+						<div class="input-block"><input type="tel" placeholder="Имя"></div>
+						<div class="input-block"><input type="text" placeholder="Телефон"></div>
+						<div class="input-block"><input type="tel" placeholder="Электронная почта"></div>
+
+						<p class="right-form__text">Пожелания и уточнения</p>
+
+						<div class="input-block"><input type="text" placeholder="Пожелания, заметки, уточнения, номера деталей"></div>
+						<div class="input-block img2">
+							<input type="file" id="file" class="img-input file" accept="image/jpeg,image/png,image/gif" data-multiple-caption = "{count} файлов выбрано">
+							<label for="file">Прикрепить фото, схемы или чертежи</label>
+						</div>
+
+						<div class="btn-block"><p class="btn-block__text">Перезвоним для подтверждения заказа</p><button class="right-btn" type="submit">Оформить</button></div>
+					</form>
+				</div>
+			</div>
+
+			<div class="mobile-services">
+				<div class="mobile-price">
+					<div class="left-price">
+						<p class="left-price__text">Повесить люстру</p>
+						<p class="left-price__text">Стоимость 700 р</p>
+					</div>
+					<div class="right-price">
+						<p class="right-price__text">Бессрочная гарантия</p>
+						<p class="right-price__text">Время работы 1-2 ч</p>
+					</div>
+				</div>
+
+				<form action="#" class="mobile-form">
+					<p class="mobile-form__title">Контактная информация</p>
+					<div class="input-block"><input type="text" placeholder="Город, населенный пункт"></div>
+					<div class="input-block"><input type="tel" placeholder="Улица, дом, корпус"></div>
+					<div class="input-block"><input type="text" placeholder="Подъезд, этаж, квартира, офис"></div>
+					<div class="input-block"><input type="tel" placeholder="Имя"></div>
+					<div class="input-block"><input type="text" placeholder="Телефон"></div>
+					<div class="input-block"><input type="tel" placeholder="Электронная почта"></div>
+
+					<p class="mobile-form__title two">Пожелания и уточнения</p>
+
+					<div class="input-block"><input type="text" placeholder="Пожелания, заметки, уточнения, номера деталей"></div>
+					<div class="input-block"><input type="text"></div>
+					<div class="input-block"><input type="text"></div>
+					<div class="input-block img2">
+						<input type="file" name="file" class="img-input" accept="image/jpeg,image/png,image/gif">
+						<label for="file">Прикрепить фото, схемы или чертежи</label>
+					</div>
+
+					<div class="block-btn">
+						<p class="block-btn__text">Перезвоним для подтверждения заказа</p>
+						<button class="right-btn" type="submit">Оформить</button>
+					</div>
+
+					<p class="min-price">Минимальная стоимость работы 1000 р</p>
+
+				</form>
+			</div>
+
+		</div>
+	</div>
+
+	<footer class="footer" id="bottom">
+		<div class="container">
+			<div class="left-block">
+				<a href="#" class="left-block__logo">
+					<span class="img-block">
+						<img src="img/logo.svg" alt="logo">
+					</span>
+					Чиним.ру
+				</a>
+
+				<p class="left-block__text"><span>Чиним.ру</span>Сервис ремонта</p>
+			</div>
+			<div class="foot-page">
+				<div class="left-block">
+					<a href="#" class="left-block__logo">
+						<span class="img-block">
+							<img src="img/logo.svg" alt="logo">
+						</span>
+						Чиним.ру
+					</a>
+
+					<p class="left-block__text"><span>Чиним.ру</span>Сервис ремонта</p>
+				</div>
+
+				<div class="menu-footer">
+					<a href="#" class="top-scroll" name="top"><img src="img/toparrow.svg" alt=""></a>
+					<a href="#" class="menu-footer__link">О сервисе</a>
+					<a href="#" class="menu-footer__link">Все услуги</a>
+					<a href="#" class="menu-footer__link">Документы</a>
+					<a href="#" class="menu-footer__link">Контакты</a>
+					<a href="#" class="menu-footer__link">Вакансии</a>
+					<a href="#" class="menu-footer__link">Стать мастером</a>
+					<a href="#" class="menu-footer__link">Карта сайта</a>
+				</div>
+			</div>
+			<div class="right-block">
+				<div class="soc-page">
+					<div class="icon-page">
+						<a href="#" class="soc"><img src="img/vk1.svg" alt="vk"></a>
+						<a href="#" class="soc"><img src="img/facebook1.svg" alt="facebook"></a>
+						<a href="#" class="soc"><img src="img/ok1.svg" alt="ok"></a>
+						<a href="#" class="soc"><img src="img/inst1.svg" alt="instagram"></a>
+					</div>
+
+					<div class="footer-menu">
+						<a href="#" class="footer-menu__link">О сервисе</a>
+						<a href="#" class="footer-menu__link">Все услуги</a>
+						<a href="#" class="footer-menu__link">Документы</a>
+						<a href="#" class="footer-menu__link">Контакты</a>
+						<a href="#" class="footer-menu__link">Вакансии</a>
+						<a href="#" class="footer-menu__link">Стать мастером</a>
+						<a href="#" class="footer-menu__link">Карта сайта</a>
+					</div>
+				</div>
+
+				<div class="form-block">
+					<form action="#" class="form-footer">
+						<p class="form-footer__title">Остались вопросы?</p>
+						<p class="form-footer__text">Перезвоним в течение 2-х минут</p>
+
+						<div class="input-block"><input type="text" placeholder="Ваше имя"></div>
+						<div class="input-block"><input type="tel" placeholder="Ваш телефон"></div>
+
+						<button type="submit" class="form-footer__btn">Заказать звонок</button>
+
+					</form>
+				</div>
+			</div>
+
+
+		</div>
+	</footer>
+	<script src="js/main.js"></script>
+</body>
+</html>
