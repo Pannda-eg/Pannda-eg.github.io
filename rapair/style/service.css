@@ -1,0 +1,404 @@
+/* line 2, service.scss */
+.block-image__text {
+  margin-top: 0; }
+
+/* line 8, service.scss */
+.main-header::before {
+  content: '';
+  position: absolute;
+  display: block;
+  top: 100%;
+  right: 0;
+  width: 100%;
+  height: 50%;
+  z-index: 20;
+  background: url(../img/Vector2.svg) no-repeat 100% 0;
+  background-size: contain; }
+
+/* line 22, service.scss */
+.main-header .logo {
+  margin-bottom: 375px; }
+
+/* line 25, service.scss */
+.main-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end; }
+  /* line 29, service.scss */
+  .main-div a {
+    height: 50px; }
+
+/* line 34, service.scss */
+.block-services {
+  margin-top: 55px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+/* line 41, service.scss */
+.left-services {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-left: 50px;
+  width: 50%; }
+  /* line 48, service.scss */
+  .left-services .block-warranty__title, .left-services .block-warranty__title-two {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #FFC700;
+    margin-bottom: 30px; }
+  /* line 54, service.scss */
+  .left-services .block-warranty__title-two {
+    color: #fff;
+    padding-top: 100px; }
+  /* line 58, service.scss */
+  .left-services .block-warranty__text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: #fff; }
+    /* line 59, service.scss */
+    .left-services .block-warranty__text .img-d {
+      width: 50px;
+      margin-right: 10px;
+      margin-bottom: 10px; }
+    /* line 64, service.scss */
+    .left-services .block-warranty__text .img-d:nth-child(1) {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: distribute;
+          justify-content: space-around; }
+  /* line 76, service.scss */
+  .left-services .price-page {
+    margin-top: 80px; }
+    /* line 78, service.scss */
+    .left-services .price-page__price {
+      margin-bottom: 20px;
+      font-size: 4rem;
+      color: #fff; }
+    /* line 83, service.scss */
+    .left-services .price-page__text {
+      font-size: 1.125rem;
+      font-weight: 500;
+      color: #fff; }
+
+/* line 91, service.scss */
+.form-left, .right-form {
+  width: 100%; }
+  /* line 95, service.scss */
+  .form-left .input-block input, .right-form .input-block input {
+    width: 80%;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding-top: 50px;
+    padding-bottom: 7px;
+    line-height: 1.5rem;
+    font-size: 1.25rem;
+    color: rgba(255, 255, 255, 0.4); }
+  /* line 106, service.scss */
+  .form-left .input-block::before, .right-form .input-block::before {
+    display: none; }
+  /* line 110, service.scss */
+  .form-left .left-btn, .form-left .right-btn, .right-form .left-btn, .right-form .right-btn {
+    font-size: 1.875rem;
+    line-height: 50px;
+    width: 340px;
+    text-align: center;
+    color: #fff;
+    font-weight: normal;
+    border: 1px solid #FFFFFF;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    background: transparent;
+    border-radius: 5px;
+    margin-top: 70px; }
+  /* line 123, service.scss */
+  .form-left .right-btn, .right-form .right-btn {
+    width: 220px;
+    margin-top: 0; }
+  /* line 127, service.scss */
+  .form-left .btn-block, .right-form .btn-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 95%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 68px; }
+    /* line 133, service.scss */
+    .form-left .btn-block__text, .right-form .btn-block__text {
+      font-size: 1.25rem;
+      color: #FFC700;
+      font-weight: 500; }
+
+/* line 143, service.scss */
+.right-form .input-block input {
+  width: 95%; }
+/* line 147, service.scss */
+.right-form__text {
+  font-size: 1.875rem;
+  font-weight: 500;
+  color: #fff;
+  margin-top: 70px; }
+
+/* line 155, service.scss */
+.right-services {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 50%;
+  position: relative;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end; }
+  /* line 161, service.scss */
+  .right-services__title {
+    font-size: 1.875rem;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 55px; }
+  /* line 167, service.scss */
+  .right-services__title.left {
+    margin-bottom: 10px;
+    margin-top: 46px; }
+  /* line 171, service.scss */
+  .right-services__title.orange {
+    margin-bottom: 140px;
+    color: #FFC700;
+    width: 60%;
+    margin-top: 50px; }
+  /* line 178, service.scss */
+  .right-services__text {
+    width: 95%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    font-size: 1.875rem;
+    color: #fff;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 33px 0 15px; }
+    /* line 186, service.scss */
+    .right-services__text span {
+      color: rgba(255, 255, 255, 0.4); }
+  /* line 190, service.scss */
+  .right-services__link {
+    display: block;
+    width: 200px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 1.875rem;
+    color: #fff;
+    border: 1px solid #FFFFFF;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-radius: 5px;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+    margin-top: 60px;
+    margin-right: 5%;
+    position: relative; }
+    /* line 204, service.scss */
+    .right-services__link::before {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 80%;
+      left: -20%;
+      width: 100%;
+      height: 100%;
+      background: url(../img/Group5.svg) no-repeat;
+      background-size: contain;
+      z-index: 20; }
+  /* line 218, service.scss */
+  .right-services .img1 {
+    position: absolute;
+    bottom: 7px;
+    left: 0;
+    width: 100%;
+    height: auto;
+    font-size: 1.25rem;
+    padding-left: 50px;
+    line-height: 30px;
+    display: block;
+    color: rgba(255, 255, 255, 0.3); }
+    /* line 230, service.scss */
+    .right-services .img1::before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      margin-top: -.5px;
+      left: 20px;
+      margin-left: -13px;
+      width: 26px;
+      height: 1px;
+      background: rgba(255, 255, 255, 0.3); }
+    /* line 239, service.scss */
+    .right-services .img1::after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      margin-top: -13px;
+      left: 20px;
+      margin-left: -.5px;
+      width: 1px;
+      height: 26px;
+      background: rgba(255, 255, 255, 0.3); }
+  /* line 249, service.scss */
+  .right-services .input-block.img2 {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2); }
+  /* line 253, service.scss */
+  .right-services input.file + label {
+    font-size: 1.25em;
+    font-weight: 700;
+    color: white;
+    background-color: black;
+    display: inline-block; }
+  /* line 261, service.scss */
+  .right-services input.file:focus + label,
+  .right-services input.file + label:hover {
+    background-color: red; }
+  /* line 266, service.scss */
+  .right-services .img-input {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1; }
+  /* line 275, service.scss */
+  .right-services__answer {
+    width: 95%;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding-top: 50px;
+    padding-bottom: 7px;
+    line-height: 1.5rem;
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.4); }
+    /* line 286, service.scss */
+    .right-services__answer span {
+      color: rgba(255, 255, 255, 0.6);
+      font-weight: normal; }
+  /* line 291, service.scss */
+  .right-services__answer.left {
+    width: 80%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+  /* line 297, service.scss */
+  .right-services .map {
+    width: 95%;
+    height: 100%;
+    margin-top: 70px; }
+    /* line 302, service.scss */
+    .right-services .map iframe {
+      width: 100%;
+      height: 500px; }
+
+/* line 309, service.scss */
+.block-document {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 220px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-left: 50px; }
+  /* line 316, service.scss */
+  .block-document__title {
+    letter-spacing: 0.05em;
+    font-size: 2.25rem;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 50px; }
+
+/* line 325, service.scss */
+.doc-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around; }
+  /* line 330, service.scss */
+  .doc-block .doc-item {
+    width: 24%;
+    background: #fff;
+    min-height: 600px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 40px 30px; }
+    /* line 339, service.scss */
+    .doc-block .doc-item__text {
+      font-size: 1.125rem;
+      font-weight: 500;
+      width: 60%; }
+    /* line 345, service.scss */
+    .doc-block .doc-item__link {
+      -ms-flex-item-align: end;
+          align-self: flex-end; }
+
+/* line 351, service.scss */
+.mobile-services {
+  display: none; }
+
+/* line 356, service.scss */
+.main-block .container.doc::before {
+  height: 60%; }
+/* line 359, service.scss */
+.main-block .container.doc::after {
+  height: 40%;
+  bottom: 0; }
