@@ -1,7 +1,7 @@
 @font-face{
 
 font-family: 'Kyiv_SerifBeta-Black3';
-src: url('../fonts/Kyiv_SerifBeta-Black3.ttf') format('truetype');
+src: url('/fonts/Kyiv_SerifBeta-Black3.ttf') format('truetype');
 font-weight: black;
 font-style: normal;
 
@@ -10,7 +10,7 @@ font-style: normal;
 @font-face{
 
 font-family: 'Kyiv_SerifBeta-Bold3';
-src: url('../fonts/Kyiv_SerifBeta-Bold3.ttf') format('truetype');
+src: url('/fonts/Kyiv_SerifBeta-Bold3.ttf') format('truetype');
 font-weight: medium;
 font-style: normal;
 
@@ -19,7 +19,7 @@ font-style: normal;
 @font-face{
 
 font-family: 'Kyiv_SerifBeta-Regular3';
-src: url('../fonts/Kyiv_SerifBeta-Regular3.ttf') format('truetype');
+src: url('/fonts/Kyiv_SerifBeta-Regular3.ttf') format('truetype');
 font-weight: normal;
 font-style: normal;
 
