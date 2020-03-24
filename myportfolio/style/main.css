@@ -1,0 +1,271 @@
+/* line 1, main.scss */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Libre Franklin', sans-serif;
+  color: #222; }
+
+/* line 9, main.scss */
+a, a:hover {
+  text-decoration: none; }
+
+/* line 13, main.scss */
+li {
+  list-style-type: none; }
+
+/* line 17, main.scss */
+.container {
+  width: 100%;
+  max-width: 1440px;
+  height: 100%;
+  margin: 0 auto; }
+
+/*main style*/
+/* line 25, main.scss */
+.main-block {
+  background: url(../img/main-bg.jpg) no-repeat 0 0;
+  background-size: cover;
+  position: relative; }
+  /* line 30, main.scss */
+  .main-block:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7); }
+
+/* line 42, main.scss */
+.div-cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  z-index: 1; }
+  /* line 52, main.scss */
+  .div-cont__top-text {
+    font-size: 1.125rem;
+    line-height: 1.25rem;
+    letter-spacing: 1px;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+    font-weight: normal;
+    font-family: 'Playfair Display', serif;
+    color: #fff; }
+  /* line 62, main.scss */
+  .div-cont__bottom-text {
+    font-size: 1.125rem;
+    line-height: 1.25rem;
+    letter-spacing: 1px;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+    margin-top: 15px;
+    font-weight: normal;
+    font-family: 'Playfair Display', serif;
+    color: #fff; }
+  /* line 73, main.scss */
+  .div-cont__title {
+    font-size: 5rem;
+    line-height: 5.2rem;
+    letter-spacing: -1px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Playfair Display', serif;
+    color: #fff; }
+
+/* line 88, main.scss */
+.section-one {
+  position: relative; }
+
+/* line 92, main.scss */
+.block-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 20; }
+  /* line 102, main.scss */
+  .block-menu .logo-block {
+    width: 20%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    /* line 106, main.scss */
+    .block-menu .logo-block .logo {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+  /* line 111, main.scss */
+  .block-menu .main-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 100%;
+    width: 80%;
+    margin-bottom: 0; }
+    /* line 119, main.scss */
+    .block-menu .main-menu__item {
+      margin-left: 15px; }
+    /* line 122, main.scss */
+    .block-menu .main-menu__link {
+      display: block;
+      width: -webkit-max-content;
+      width: -moz-max-content;
+      width: max-content;
+      outline: none;
+      padding: 5px 15px;
+      font-weight: 500;
+      letter-spacing: 2px;
+      font-size: 1.125rem;
+      color: #222;
+      position: relative; }
+      /* line 133, main.scss */
+      .block-menu .main-menu__link::before {
+        content: '';
+        display: block;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 1px;
+        border-bottom: 1px solid #222;
+        -webkit-transform: scale(0, 1);
+                transform: scale(0, 1);
+        opacity: 0;
+        -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+        transition: opacity 0.35s, -webkit-transform 0.35s;
+        transition: opacity 0.35s, transform 0.35s;
+        transition: opacity 0.35s, transform 0.35s, -webkit-transform 0.35s; }
+    /* line 148, main.scss */
+    .block-menu .main-menu__link:hover::before {
+      opacity: 1;
+      -webkit-transform: scale(1);
+              transform: scale(1); }
+
+/* line 156, main.scss */
+.header-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh; }
+  /* line 160, main.scss */
+  .header-block .left-block {
+    width: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 100%; }
+  /* line 167, main.scss */
+  .header-block .right-block {
+    width: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    /* line 173, main.scss */
+    .header-block .right-block__title {
+      font-size: 3rem;
+      line-height: 3.2rem;
+      font-weight: 500;
+      text-transform: uppercase;
+      font-family: 'Playfair Display', serif; }
+    /* line 180, main.scss */
+    .header-block .right-block__text {
+      font-size: 1.125rem; }
+    /* line 183, main.scss */
+    .header-block .right-block__link {
+      font-size: 1.25rem;
+      line-height: 35px;
+      width: 200px;
+      text-align: center;
+      color: #222;
+      position: relative; }
+      /* line 191, main.scss */
+      .header-block .right-block__link::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: block;
+        border-right: 1px solid #222;
+        border-left: 1px solid #222;
+        -webkit-transform: scale(1, 0);
+                transform: scale(1, 0);
+        opacity: 0;
+        -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+        transition: opacity 0.35s, -webkit-transform 0.35s;
+        transition: opacity 0.35s, transform 0.35s;
+        transition: opacity 0.35s, transform 0.35s, -webkit-transform 0.35s; }
+      /* line 205, main.scss */
+      .header-block .right-block__link::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: block;
+        border-top: 1px solid #222;
+        border-bottom: 1px solid #222;
+        -webkit-transform: scale(0, 1);
+                transform: scale(0, 1);
+        opacity: 0;
+        -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+        transition: opacity 0.35s, -webkit-transform 0.35s;
+        transition: opacity 0.35s, transform 0.35s;
+        transition: opacity 0.35s, transform 0.35s, -webkit-transform 0.35s; }
+    /* line 221, main.scss */
+    .header-block .right-block__link:hover::before, .header-block .right-block__link:hover::after {
+      opacity: 1;
+      -webkit-transform: scale(1);
+              transform: scale(1); }
