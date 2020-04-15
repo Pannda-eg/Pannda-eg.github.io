@@ -1,0 +1,500 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="style/easydropdown.css">
+
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+  <!--Import materialize.css-->
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
+
+  <!-- анимация -->
+  <link rel="stylesheet" href="style/Animate.css">
+  <script src="js/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+
+  <!-- main style -->
+  <link rel="stylesheet" href="style/main.css">
+  <link rel="stylesheet" href="style/media.css">
+  <link rel="stylesheet" href="style/reset.css">
+
+  <title>FastEx.io</title>
+
+  <style>
+    .dropdown {
+      border: 0;
+    }
+    .dropdown .selected,
+    .dropdown li {
+      display: flex;
+      align-items: center;
+    }
+
+    .dropdown ul {
+      overflow-y: scroll;
+    }
+
+    .dropdown > div {
+      border-radius: 8px;
+      padding: 10px;
+      background: #fff;
+    }
+    .dropdown .selected img,
+    .dropdown li img {
+      margin-bottom: -9px;
+      width: 40px;
+      height: 40px;
+    }
+
+    .dropdown .carat {
+      margin-right: 10px;
+    }
+
+    @media (max-width: 767px) {
+      .dropdown .selected,
+      .dropdown li {
+        font-size: 12px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="header-section">
+    <div class="container">
+      <div class="row no-gutters">
+        <div class="col-12">
+          <div class="header-page">
+
+            <div class="header-menu">
+              <div class="logo-block">
+                <a href="#" class="logo-block__link">
+                  <img src="img/header-logo.svg" alt="">
+                  <span class="text-link">
+                    <span>FastEx.io</span>
+                    <span>Fast Exchange Crypto</span>
+                  </span>
+                </a>
+              </div>
+
+              <ul class="menu-main">
+                <li class="menu-main__item"><a href="question.html" class="menu-main__link">How it works</a></li>
+                <li class="menu-main__item"><a href="#" class="menu-main__link">Exclusive Partners</a></li>
+                <li class="menu-main__item"><a href="tearms.html" class="menu-main__link">Affiliate Program</a></li>
+                <li class="menu-main__item"><a href="form.html" class="menu-main__link">Associate Businesses</a></li>
+                <li class="menu-main__item"><a href="api.html" class="menu-main__link">Support</a></li>
+                <li class="menu-main__item"><a href="supported.html" class="menu-main__link">Coin Listing</a></li>
+              </ul>
+
+              <div class="div">
+                <div class="custom-select-wrapper">
+                  <div class="custom-select">
+                    <div class="custom-select__trigger"><span><img src="img/rus.png" alt=""></span>
+                      <div class="arrow"></div>
+                    </div>
+                    <div class="custom-options">
+                      <a href="#" class="custom-option"><img src="img/rus.png" alt=""></a>
+                    </div>
+                  </div>
+                </div>
+
+
+                <a href="#" class="my-menu">
+                  <span class="burger"><img src="img/burger.svg" alt=""></span>
+                  <span class="exit"><img src="img/exit.svg" alt=""></span>
+                </a>
+              </div>
+            </div>
+            <div class="header-contant">
+              <div class="header-left">
+                <p class="header-left__title">The most advantageous exchange service</p>
+                <p class="header-left__text">You don't need any special skills to use it, we aim to provide reliable storage of your data and seamless operation.</p>
+              </div>
+              <div class="header-right">
+
+                <div class="page-form"></div>
+                <form action="#" class="converter-form">
+                  <div class="form-input">
+                    <input type="text" placeholder="1" id="n1">
+                    <select class="dropdown">
+                      <option data-img="img/konvert/konvert1.png" value="">BTC</option>
+                      <option data-img="img/konvert/konvert2.png" value="">XRP</option>
+                      <option data-img="img/konvert/konvert3.png" value="">Tether</option>
+                      <option data-img="img/konvert/konvert4.png" value="">Bitcoin Cash</option>
+                      <option data-img="img/konvert/konvert5.png" value="">Bitcoin SV</option>
+                      <option data-img="img/konvert/konvert6.png" value="">Litecoin</option>
+                      <option data-img="img/konvert/konvert1.png" value="">Tether</option>
+                      <option data-img="img/konvert/konvert2.png" value="">Bitcoin Cash</option>
+                      <option data-img="img/konvert/konvert3.png" value="">Bitcoin SV</option>
+                    </select>
+                    <span class="top-text">You Send</span>
+                  </div>
+
+                  <div class="form-input">
+                    <input type="text" placeholder="44.744" id="n2">
+                    <select class="dropdown">
+                      <option data-img="img/konvert/konvert1.png" value="">BTC</option>
+                      <option data-img="img/konvert/konvert2.png" value="">XRP</option>
+                      <option data-img="img/konvert/konvert3.png" value="">Tether</option>
+                      <option data-img="img/konvert/konvert4.png" value="">Bitcoin Cash</option>
+                      <option data-img="img/konvert/konvert5.png" value="">Bitcoin SV</option>
+                      <option data-img="img/konvert/konvert6.png" value="">Litecoin</option>
+                    </select>
+                    <span class="top-text">You Get</span>
+                  </div>
+
+                  <button type="submit" class="btn-form">Swap Now</button>
+
+                  <div class="form-link">
+                    <p class="form-link__link"><img src="img/konvert/s1.svg" alt=""></p>
+                    <p class="form-link__link"><img src="img/konvert/s2.svg" alt=""></p>
+                    <p class="form-link__link"><img src="img/konvert/s3.svg" alt=""></p>
+                    <p class="form-link__link"><img src="img/konvert/s4.svg" alt=""></p>
+                    <p class="form-link__link"><img src="img/konvert/s5.svg" alt=""></p>
+                    <p class="form-link__link"><img src="img/konvert/s6.svg" alt=""></p>
+                    <p class="form-link__link"><img src="img/konvert/s7.svg" alt=""></p>
+                  </div>
+
+                  <a href="#" class="change-link"></a>
+                </form>
+
+                <img src="img/header-img-pos.svg" alt="" class="img-pos">
+                <img src="img/header-right.svg" alt="" class="img-pos2">
+                <img src="img/header1024.svg" alt="" class="img-pos3">
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="two-section">
+    <div class="container">
+      <div class="row no-gutters">
+        <div class="col-12">
+
+          <div class="two-contant">
+            <div class="two-item wow bounceInUp">
+              <div class="block-icon"><img src="img/two/t1.svg" alt=""></div>
+              <p class="two-item__text">Marketable<br>rates</p>
+            </div>
+            <div class="two-item wow bounceInDown">
+              <div class="block-icon"><img src="img/two/t2.svg" alt=""></div>
+              <p class="two-item__text">High transaction<br>speed</p>
+            </div>
+            <div class="two-item wow bounceInUp">
+              <div class="block-icon"><img src="img/two/t3.svg" alt=""></div>
+              <p class="two-item__text">Extra low<br>fees</p>
+            </div>
+            <div class="two-item wow bounceInDown">
+              <div class="block-icon"><img src="img/two/t4.svg" alt=""></div>
+              <p class="two-item__text">Your privacy<br>is the priority</p>
+            </div>
+            <div class="two-item wow bounceInUp">
+              <div class="block-icon"><img src="img/two/t5.svg" alt=""></div>
+              <p class="two-item__text">Comportable daily/monthly<br>limitations</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="three-section">
+    <div class="container">
+      <div class="row no-gutters">
+        <div class="col-12">
+
+          <div class="three-content">
+            <p class="title-block">Operation</p>
+
+            <div class="block-step">
+              <div class="step-item wow bounceInLeft">
+                <div class="block-icon"><img src="img/three/t1.svg" alt=""></div>
+                <p class="step-item__number">1</p>
+                <p class="step-item__text">Crypto wallet 1</p>
+              </div>
+
+              <div class="block-dote wow pulse"><p class="block-dote__text">1 BTC</p><img src="img/three/tochka.svg" alt=""></div>
+
+              <div class="step-item wow bounceInDown">
+                <div class="block-icon"><img src="img/three/t2.svg" alt=""></div>
+                <p class="step-item__number">2</p>
+                <p class="step-item__text">FastEx selects the best<br>rate to trade</p>
+              </div>
+
+              <div class="block-dote wow pulse"><p class="block-dote__text">1 BTC</p><img src="img/three/tochka.svg" alt=""></div>
+
+              <div class="step-item wow bounceInRight">
+                <div class="block-icon"><img src="img/three/t3.svg" alt=""></div>
+                <p class="step-item__number">3</p>
+                <p class="step-item__text">FastEx Searching the best<br>available rate on the market</p>
+              </div>
+
+              <div class="step-item wow bounceInLeft">
+                <div class="block-icon"><img src="img/three/t4.svg" alt=""></div>
+                <p class="step-item__number">4</p>
+                <p class="step-item__text">FastEx exchanging at the <br>est rate:  1 BTC = 47.82 ETH</p>
+              </div>
+
+              <div class="block-dote wow pulse"><p class="block-dote__text">47.82 EТН</p><img src="img/three/tochka.svg" alt=""></div>
+
+              <div class="step-item wow bounceInUp">
+                <div class="block-icon"><img src="img/three/t5.svg" alt=""></div>
+                <p class="step-item__number">5</p>
+                <p class="step-item__text">FastEx charges<br>a transparent fee</p>
+              </div>
+
+              <div class="block-dote wow pulse"><p class="block-dote__text">47.82 EТН</p><img src="img/three/tochka.svg" alt=""></div>
+
+              <div class="step-item wow bounceInRight">
+                <div class="block-icon"><img src="img/three/t6.svg" alt=""></div>
+                <p class="step-item__number">6</p>
+                <p class="step-item__text">Crypto wallet 2</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="four-section">
+    <div class="container">
+      <div class="row no-gutters">
+        <div class="col-12">
+
+          <p class="title-block">Just few steps</p>
+
+          <div class="four-contant">
+            <div class="four-item wow bounceInUp">
+              <p class="four-item__number">1</p>
+              <p class="four-item__text">Money from your wallet<br>go to the platform</p>
+            </div>
+            <div class="four-item wow bounceInDown">
+              <p class="four-item__number">2</p>
+              <p class="four-item__text">Looking for the most<br>profitable rate</p>
+            </div>
+            <div class="four-item wow bounceInUp">
+              <p class="four-item__number">3</p>
+              <p class="four-item__text">Exchanging for you</p>
+            </div>
+            <div class="four-item wow bounceInDown">
+              <p class="four-item__number">4</p>
+              <p class="four-item__text">FastEx charges<br>a transparent fee 0.4%<br>from the Final Amount</p>
+            </div>
+            <div class="four-item wow bounceInUp">
+              <p class="four-item__number">5</p>
+              <p class="four-item__text">Funds are Delivered<br>to a Recipient Wallet that <br>you gave us</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="five-section">
+    <div class="container">
+      <div class="row no-gutters">
+        <div class="col-12">
+          <div class="five-contant">
+            <p class="title-block">Our affiliates</p>
+
+            <div class="affiliates-block">
+
+              <a href="#" class="five-item wow bounceInLeft">
+                <span class="block-icon"><img src="img/five/f1.svg" alt=""></span>
+                <p class="five-item__text">ZCore Cash</p>
+              </a>
+              <a href="#" class="five-item wow bounceInDown">
+                <span class="block-icon"><img src="img/five/f2.svg" alt=""></span>
+                <p class="five-item__text">Flare Wallet</p>
+              </a>
+              <a href="#" class="five-item wow bounceInRight">
+                <span class="block-icon"><img src="img/five/f3.svg" alt=""></span>
+                <p class="five-item__text">Magnum Wallet</p>
+              </a>
+              <a href="#" class="five-item wow bounceInLeft">
+                <span class="block-icon"><img src="img/five/f4.svg" alt=""></span>
+                <p class="five-item__text">Vidulum Wallet</p>
+              </a>
+              <a href="#" class="five-item wow bounceInUp">
+                <span class="block-icon"><img src="img/five/f5.svg" alt=""></span>
+                <p class="five-item__text">Creamcoin<br>"Crypto News"</p>
+              </a>
+              <a href="#" class="five-item wow bounceInRight">
+                <span class="block-icon"><img src="img/five/f6.svg" alt=""></span>
+                <p class="five-item__text">ZelCore Wallet</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="six-section">
+    <div class="container">
+      <div class="row no-gutters">
+        <div class="col-12">
+          <div class="six-content">
+            <p class="title-block">Our partners</p>
+            <div class="partners-block">
+              <div class="six-item wow bounceInDown">
+                <div class="block-icon"><img src="img/six/s1.svg" alt=""></div>
+                <p class="six-item__title">SelfKey</p>
+                <p class="six-item__text">Your KEY to Freedom</p>
+                <a href="#" class="six-item__link">Website</a>
+              </div>
+              <div class="six-item wow bounceInUp">
+                <div class="block-icon"><img src="img/six/s2.svg" alt=""></div>
+                <p class="six-item__title">Vidulum</p>
+                <p class="six-item__text">More than just a blockchain</p>
+                <a href="#" class="six-item__link">Website</a>
+              </div>
+              <div class="six-item wow bounceInDown">
+                <div class="block-icon"><img src="img/six/s3.svg" alt=""></div>
+                <p class="six-item__title">REPME</p>
+                <p class="six-item__text">Incentivized Social Network</p>
+                <a href="#" class="six-item__link">Website</a>
+              </div>
+              <div class="six-item wow bounceInUp">
+                <div class="block-icon"><img src="img/six/s4.svg" alt=""></div>
+                <p class="six-item__title">Bitcore</p>
+                <p class="six-item__text">Is a Lifestyle</p>
+                <a href="#" class="six-item__link">Website</a>
+              </div>
+              <div class="six-item wow bounceInDown">
+                <div class="block-icon"><img src="img/six/s5.svg" alt=""></div>
+                <p class="six-item__title">Vitae</p>
+                <p class="six-item__text">Growing Prosperity</p>
+                <a href="#" class="six-item__link">Website</a>
+              </div>
+              <div class="six-item wow bounceInUp">
+                <div class="block-icon"><img src="img/six/s6.svg" alt=""></div>
+                <p class="six-item__title">ZERO</p>
+                <p class="six-item__text">A Revolutionary Cryptocurrency</p>
+                <a href="#" class="six-item__link">Website</a>
+              </div>
+              <div class="six-item wow bounceInDown">
+                <div class="block-icon"><img src="img/six/s7.svg" alt=""></div>
+                <p class="six-item__title">Viacoin</p>
+                <p class="six-item__text">Secure Micropayments Perfected</p>
+                <a href="#" class="six-item__link">Website</a>
+              </div>
+              <div class="six-item wow bounceInUp">
+                <div class="block-icon"><img src="img/six/s8.svg" alt=""></div>
+                <p class="six-item__title">Phore</p>
+                <p class="six-item__text">Delivering Blockchain Technology To The Real World</p>
+                <a href="#" class="six-item__link">Website</a>
+              </div>
+              <div class="six-item wow bounceInDown">
+                <div class="block-icon"><img src="img/six/s9.svg" alt=""></div>
+                <p class="six-item__title">Wagerr</p>
+                <p class="six-item__text">Unrestricted Sports Betting With the Worlds Best Odds</p>
+                <a href="#" class="six-item__link">Website</a>
+              </div>
+              <div class="six-item wow bounceInUp">
+                <div class="block-icon"><img src="img/six/s10.svg" alt=""></div>
+                <p class="six-item__title">ZCore</p>
+                <p class="six-item__text">Simplified Cryptocurrency for Blockchain Services</p>
+                <a href="#" class="six-item__link">Website</a>
+              </div>
+            </div>
+
+            <p class="six-content__text">Integrate our Widget on your Website and make your Coin Available to Everyone</p>
+
+            <a href="#" class="six-content__link">Become Partner</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="seven-section">
+    <div class="container">
+      <div class="row no-gutters">
+        <div class="col-12">
+          <div class="seven-content">
+            <div class="seven-left wow bounceInLeft">
+              <div class="text-block">
+                <p class="seven-left__title">Become an affiliate</p>
+                <p class="seven-left__text">Have a website? Publish a link or widget on it, wait until someone use it and get 70 % return for each transaction made by your website visitors.</p>
+              </div>
+              <a href="#" class="seven-left__link">Become Affiliate</a>
+            </div>
+            <div class="seven-right wow bounceInRight">
+              <div class="text-block">
+                <p class="seven-right__title">White label partnership</p>
+                <p class="seven-right__text">Are you an exchange owner? By integrating our API you can get revenues keeping your brand name.</p>
+              </div>
+              <a href="#" class="seven-right__link">Become Affiliate</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row no-gutters">
+        <div class="col-12">
+
+          <div class="footer-content">
+            <div class="logo-block">
+              <a href="#" class="logo-block__link">
+                <img src="img/header-logo.svg" alt="">
+                <span class="text-link">
+                  <span>FastEx.io</span>
+                  <span>Fast Exchange Crypto</span>
+                </span>
+              </a>
+            </div>
+
+            <p class="footer-content__text">We aim to provide fast and qualitative exchange services. No users’ data are sent to the third parties, your privacy matters to us — this is a basic principle of our platform. </p>
+
+            <ul class="footer-link">
+              <li class="footer-link__item"><a href="#" class="footer-link__link">How it works</a></li>
+              <li class="footer-link__item"><a href="#" class="footer-link__link">Associate Businesses</a></li>
+              <li class="footer-link__item"><a href="#" class="footer-link__link">Exclusive Partners</a></li>
+            </ul>
+            <ul class="footer-link right">
+              <li class="footer-link__item"><a href="#" class="footer-link__link">Affiliate Program</a></li>
+              <li class="footer-link__item"><a href="#" class="footer-link__link">Support</a></li>
+              <li class="footer-link__item"><a href="#" class="footer-link__link">Coin Listing</a></li>
+            </ul>
+
+            <p class="footer-content__text-right">Copyright © 2020</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+  <script src="js/jquery.easydropdown.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="style/easydropdown.css">
+
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+  <!--Import materialize.css-->
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
+
+  <!-- анимация -->
+  <link rel="stylesheet" href="style/Animate.css">
+  <script src="js/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+
+  <!-- main style -->
+  <link rel="stylesheet" href="style/main.css">
+  <link rel="stylesheet" href="style/media.css">
+  <link rel="stylesheet" href="style/reset.css">
+
+  <title>FastEx.io</title>
+
+  <style>
+    .header-section {
+      background: url(img/api/api-bg.png) no-repeat center;
+      background-size: cover;
+    }
+
+    .dropdown {
+      width: 275px;
+      height: 57px;
+    }
+
+    .dropdown .carat {
+
+      position: absolute;
+      right: 30px;
+      top: 50%;
+      margin-top: -1px;
+    }
+
+    .dropdown:hover,
+    .dropdown:focus {
+      border-color: transparent;
+      background: url(/img/border-2.png) no-repeat 0 0;
+    }
+
+    @media (max-width: 580px) {
+      .dropdown {
+        width: 100%;
+        height: 47px
+      }
+      .dropdown:hover,
+      .dropdown:focus {
+        border-color: transparent;
+        background: url(/img/border.png) no-repeat 0 0;
+        background-size: 100% 100%;
+      }
+
+      .dropdown .selected, .dropdown li {
+        font-size: 14px;
+      }
+    }
+
+
+  </style>
+</head>
+<body class="body">
+
+  <div class="wrraper">
+    <header class="header-section">
+      <div class="container">
+        <div class="row no-gutters">
+          <div class="col-12">
+            <div class="header-page">
+
+              <div class="header-menu">
+                <div class="logo-block">
+                  <a href="#" class="logo-block__link">
+                    <img src="img/header-logo.svg" alt="">
+                    <span class="text-link">
+                      <span>FastEx.io</span>
+                      <span>Fast Exchange Crypto</span>
+                    </span>
+                  </a>
+                </div>
+
+                <ul class="menu-main">
+                  <li class="menu-main__item"><a href="question.html" class="menu-main__link">How it works</a></li>
+                  <li class="menu-main__item"><a href="#" class="menu-main__link">Exclusive Partners</a></li>
+                  <li class="menu-main__item"><a href="tearms.html" class="menu-main__link">Affiliate Program</a></li>
+                  <li class="menu-main__item"><a href="form.html" class="menu-main__link">Associate Businesses</a></li>
+                  <li class="menu-main__item"><a href="api.html" class="menu-main__link">Support</a></li>
+                  <li class="menu-main__item"><a href="supported.html" class="menu-main__link">Coin Listing</a></li>
+                </ul>
+
+                <div class="div">
+                  <div class="custom-select-wrapper">
+                    <div class="custom-select">
+                      <div class="custom-select__trigger"><span><img src="img/rus.png" alt=""></span>
+                        <div class="arrow"></div>
+                      </div>
+                      <div class="custom-options">
+                        <a href="api.html" class="custom-option"><img src="img/rus.png" alt=""></a>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <a href="#" class="my-menu">
+                    <span class="burger"><img src="img/burger.svg" alt=""></span>
+                    <span class="exit"><img src="img/exit.svg" alt=""></span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="api-header-cont">
+                <p class="api-header-cont__title">Leave an application</p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="form-section">
+      <div class="container">
+        <div class="row no-gutters">
+          <div class="col-12">
+            <div class="form-contant">
+              <p class="form-contant__title">Place Details</p>
+
+              <form action="#" class="form">
+                <div class="input-div">
+                  <p class="input-div__title">Swap Transaction Number</p>
+                  <input type="text" placeholder="Place the transaction number">
+                </div>
+
+                <div class="input-div">
+                  <p class="input-div__title">Deposit Amount</p>
+                  <input type="text" placeholder="e.g 205.12332">
+                </div>
+
+                <div class="input-div">
+                  <p class="input-div__title">Your Receiving address</p>
+                  <input type="text" placeholder="The address that refund will be done">
+                </div>
+
+                <div class="input-div">
+                  <p class="input-div__title">Your Refund address</p>
+                  <input type="text" placeholder="The address that refund will be done">
+                </div>
+
+                <div class="select-block">
+                  <div class="select-left">
+                    <p class="input-div__title">Deposit Currency</p>
+                    <select name="" id="" class="dropdown">
+                      <option value="">Select a currency</option>
+                      <option value="">Select a currency</option>
+                      <option value="">Select a currency</option>
+                    </select>
+                  </div>
+                  <div class="select-right">
+                    <p class="input-div__title">Receive Currency</p>
+                    <select name="" id="" class="dropdown">
+                      <option value="">Bitcoin Confidential (BC)</option>
+                      <option value="">Bitcoin Confidential (BC)</option>
+                      <option value="">Bitcoin Confidential (BC)</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="input-div">
+                  <p class="input-div__title">Your Receiving address</p>
+                  <input type="email" placeholder="example@gmail.com">
+                </div>
+
+                <div class="input-div">
+                  <p class="input-div__title">Feel free to explain us your issue</p>
+                  <input type="text" placeholder="Enter your message...">
+                </div>
+
+                <button type="submit" class="form-btn">Submit This Ticket</button>
+
+                <p class="form-text">By clicking “Leave an application” you agree to the platform’s <a href="privacy.html">Terms & Conditions</a></p>
+
+              </form>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row no-gutters">
+        <div class="col-12">
+
+          <div class="footer-content">
+            <div class="logo-block">
+              <a href="#" class="logo-block__link">
+                <img src="img/header-logo.svg" alt="">
+                <span class="text-link">
+                  <span>FastEx.io</span>
+                  <span>Fast Exchange Crypto</span>
+                </span>
+              </a>
+            </div>
+
+
+            <p class="footer-content__text">We aim to provide fast and qualitative exchange services. No users’ data are sent to the third parties, your privacy matters to us — this is a basic principle of our platform. </p>
+
+            <ul class="footer-link">
+              <li class="footer-link__item"><a href="#" class="footer-link__link">How it works</a></li>
+              <li class="footer-link__item"><a href="#" class="footer-link__link">Associate Businesses</a></li>
+              <li class="footer-link__item"><a href="#" class="footer-link__link">Exclusive Partners</a></li>
+            </ul>
+            <ul class="footer-link right">
+              <li class="footer-link__item"><a href="#" class="footer-link__link">Affiliate Program</a></li>
+              <li class="footer-link__item"><a href="#" class="footer-link__link">Support</a></li>
+              <li class="footer-link__item"><a href="#" class="footer-link__link">Coin Listing</a></li>
+            </ul>
+
+            <p class="footer-content__text-right">Copyright © 2020</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+  <script src="js/jquery.easydropdown.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>
