@@ -678,7 +678,9 @@
     margin-bottom: 20px; } 
 	.header-bottom {
 	top: 0 !important;
-}}
+}
+.header {
+	padding-top: 55px;}
 @media (max-width: 450px) {
   /* line 599, media.scss */
   .page-link.two {
