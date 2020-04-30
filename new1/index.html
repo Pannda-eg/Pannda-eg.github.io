@@ -21,10 +21,10 @@
   <title>Plava Monica</title>
 
   <script src="js/wow.min.js"></script>
-    <script>
-        new WOW().init();
+  <script>
+    new WOW().init();
 
-    </script>
+  </script>
 </head>
 <body>
 
@@ -34,7 +34,7 @@
     <form action="#" class="form-mod1">
       <div class="block-input">
         <input type="text" placeholder="Ваше имя">
-        <input type="tel" placeholder="Ваш номер телефона">
+        <input type="tel" id="good" placeholder="Номер телефона">
         <input type="text" placeholder="Напишите интересующий Вас вопрос">
       </div>
 
@@ -207,10 +207,51 @@
       </li>
       <li class="nav-item mob-menu__item">
         <a class="nav-link mob-menu__link" href="https://plavamonika.com/property-status/zhiloj-fond/" target="_blank">Жилой фонд</a>
+        <!-- <ul class="dropdown-menu">
+          <li class="dropdown"><a class="dropdown-item" href="#">Бар</a>
+            <ul class="drop-menu2">
+              <li><a href="#" class="drop-menu2__link">Квартиры</a></li>
+              <li><a href="#" class="drop-menu2__link">Дома</a></li>
+              <li><a href="#" class="drop-menu2__link">Виллы</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a class="dropdown-item" href="#">Будва</a>
+            <ul class="drop-menu2">
+              <li><a href="#" class="drop-menu2__link">Квартиры</a></li>
+              <li><a href="#" class="drop-menu2__link">Дома</a></li>
+              <li><a href="#" class="drop-menu2__link">Виллы</a></li>
+              <li><a href="#" class="drop-menu2__link">Новостройка</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a class="dropdown-item" href="#">Котор</a>
+            <ul class="drop-menu2">
+              <li><a href="#" class="drop-menu2__link">Квартиры</a></li>
+              <li><a href="#" class="drop-menu2__link">Дома</a></li>
+              <li><a href="#" class="drop-menu2__link">Виллы</a></li>
+              <li><a href="#" class="drop-menu2__link">Новостройка</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a class="dropdown-item" href="#">Тиват</a>
+            <ul class="drop-menu2">
+              <li><a href="#" class="drop-menu2__link">Квартиры</a></li>
+              <li><a href="#" class="drop-menu2__link">Дома</a></li>
+              <li><a href="#" class="drop-menu2__link">Виллы</a></li>
+              <li><a href="#" class="drop-menu2__link">Новостройка</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a class="dropdown-item" href="#">Херцег-Нови</a>
+            <ul class="drop-menu2">
+              <li><a href="#" class="drop-menu2__link">Квартиры</a></li>
+              <li><a href="#" class="drop-menu2__link">Дома</a></li>
+              <li><a href="#" class="drop-menu2__link">Виллы</a></li>
+              <li><a href="#" class="drop-menu2__link">Новостройка</a></li>
+            </ul>
+          </li>
+        </ul> -->
       </li>
       <li class="nav-item mob-menu__item">
         <a class="nav-link mob-menu__link" href="#" target="_blank">Тип недвижимости</a>
-        <div class="dropdown-menu">
+        <!-- <div class="dropdown-menu">
           <a class="dropdown-item" href="#">Квартира</a>
           <a class="dropdown-item" href="#">Дом</a>
           <a class="dropdown-item" href="#">Вилла</a>
@@ -218,7 +259,7 @@
           <a class="dropdown-item" href="#">Земля</a>
           <a class="dropdown-item" href="#">Отели</a>
           <a class="dropdown-item" href="#">Торговая площадь</a>
-        </div>
+        </div> -->
       </li>
       <li class="nav-item mob-menu__item">
         <a class="nav-link mob-menu__link" href="https://plavamonika.com/property-status/kommercheskaya-nedvizhimost/" target="_blank">Коммерческая недвижимость</a>
@@ -260,12 +301,83 @@
                 <li class="nav-item main-menu__item">
                   <a class="nav-link main-menu__link" href="https://plavamonika.com/" target="_blank">Главная</a>
                 </li>
-                <li class="nav-item main-menu__item">
-                  <a class="nav-link main-menu__link" href="https://plavamonika.com/property-status/zhiloj-fond/" target="_blank">Жилой фонд</a>
+                <li class="nav-item main-menu__item dropdown">
+                  <a class="nav-link main-menu__link dropdown-toggle" href="https://plavamonika.com/property-status/zhiloj-fond/" target="_blank">Жилой фонд</a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-li"><a class="dropdown-item" href="#">Бар</a>
+                      <ul class="drop-menu2">
+                        <li class="drop-li"><a href="#" class="drop-menu2__link">Квартиры</a>
+                          <ul class="drop-menu3">
+                            <li><a href="#" class="drop-menu3__link">Однакомнатные квартиры</a></li>
+                            <li><a href="#" class="drop-menu3__link">Двухкомнатные квартиры</a></li>
+                            <li><a href="#" class="drop-menu3__link">Трехкомнатные квартиры</a></li>
+                          </ul>
+                        </li>
+                        <li><a href="#" class="drop-menu2__link">Дома</a></li>
+                        <li><a href="#" class="drop-menu2__link">Виллы</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown-li"><a class="dropdown-item" href="#">Будва</a>
+                      <ul class="drop-menu2">
+                        <li class="drop-li"><a href="#" class="drop-menu2__link">Квартиры</a>
+                          <ul class="drop-menu3">
+                            <li><a href="#" class="drop-menu3__link">Однакомнатные квартиры</a></li>
+                            <li><a href="#" class="drop-menu3__link">Двухкомнатные квартиры</a></li>
+                            <li><a href="#" class="drop-menu3__link">Трехкомнатные квартиры</a></li>
+                          </ul>
+                        </li>
+                        <li><a href="#" class="drop-menu2__link">Дома</a></li>
+                        <li><a href="#" class="drop-menu2__link">Виллы</a></li>
+                        <li><a href="#" class="drop-menu2__link">Новостройка</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown-li"><a class="dropdown-item" href="#">Котор</a>
+                      <ul class="drop-menu2">
+                        <li class="drop-li"><a href="#" class="drop-menu2__link">Квартиры</a>
+                          <ul class="drop-menu3">
+                            <li><a href="#" class="drop-menu3__link">Однакомнатные квартиры</a></li>
+                            <li><a href="#" class="drop-menu3__link">Двухкомнатные квартиры</a></li>
+                            <li><a href="#" class="drop-menu3__link">Трехкомнатные квартиры</a></li>
+                          </ul>
+                        </li>
+                        <li><a href="#" class="drop-menu2__link">Дома</a></li>
+                        <li><a href="#" class="drop-menu2__link">Виллы</a></li>
+                        <li><a href="#" class="drop-menu2__link">Новостройка</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown-li"><a class="dropdown-item" href="#">Тиват</a>
+                      <ul class="drop-menu2">
+                        <li class="drop-li"><a href="#" class="drop-menu2__link">Квартиры</a>
+                          <ul class="drop-menu3">
+                            <li><a href="#" class="drop-menu3__link">Однакомнатные квартиры</a></li>
+                            <li><a href="#" class="drop-menu3__link">Двухкомнатные квартиры</a></li>
+                            <li><a href="#" class="drop-menu3__link">Трехкомнатные квартиры</a></li>
+                          </ul>
+                        </li>
+                        <li><a href="#" class="drop-menu2__link">Дома</a></li>
+                        <li><a href="#" class="drop-menu2__link">Виллы</a></li>
+                        <li><a href="#" class="drop-menu2__link">Новостройка</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown-li"><a class="dropdown-item" href="#">Херцег-Нови</a>
+                      <ul class="drop-menu2">
+                        <li class="drop-li"><a href="#" class="drop-menu2__link">Квартиры</a>
+                          <ul class="drop-menu3">
+                            <li><a href="#" class="drop-menu3__link">Однакомнатные квартиры</a></li>
+                            <li><a href="#" class="drop-menu3__link">Двухкомнатные квартиры</a></li>
+                            <li><a href="#" class="drop-menu3__link">Трехкомнатные квартиры</a></li>
+                          </ul>
+                        </li>
+                        <li><a href="#" class="drop-menu2__link">Дома</a></li>
+                        <li><a href="#" class="drop-menu2__link">Виллы</a></li>
+                        <li><a href="#" class="drop-menu2__link">Новостройка</a></li>
+                      </ul>
+                    </li>
+                  </ul>
                 </li>
                 <li class="nav-item main-menu__item dropdown">
                   <a class="nav-link main-menu__link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" target="_blank">Тип недвижимости</a>
-                  <div class="dropdown-menu">
+                  <ul class="dropdown-menu">
                     <a class="dropdown-item" href="#" target="_blank">Квартира</a>
                     <a class="dropdown-item" href="#" target="_blank">Дом</a>
                     <a class="dropdown-item" href="#" target="_blank">Вилла</a>
@@ -273,10 +385,42 @@
                     <a class="dropdown-item" href="#" target="_blank">Земля</a>
                     <a class="dropdown-item" href="#" target="_blank">Отели</a>
                     <a class="dropdown-item" href="#" target="_blank">Торговая площадь</a>
-                  </div>
+                  </ul>
                 </li>
-                <li class="nav-item main-menu__item">
-                  <a class="nav-link main-menu__link" href="https://plavamonika.com/property-status/kommercheskaya-nedvizhimost/" target="_blank">Коммерческая недвижимость</a>
+                <li class="nav-item main-menu__item dropdown">
+                  <a class="nav-link main-menu__link dropdown-toggle" href="https://plavamonika.com/property-status/kommercheskaya-nedvizhimost/" target="_blank">Коммерческая недвижимость</a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-li"><a class="dropdown-item" href="#">Бар</a>
+                      <ul class="drop-menu2">
+                        <li><a href="#" class="drop-menu2__link">Отели</a></li>
+                        <li><a href="#" class="drop-menu2__link">Торговые площади</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown-li"><a class="dropdown-item" href="#">Будва</a>
+                      <ul class="drop-menu2">
+                        <li><a href="#" class="drop-menu2__link">Отели</a></li>
+                        <li><a href="#" class="drop-menu2__link">Торговые площади</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown-li"><a class="dropdown-item" href="#">Котор</a>
+                      <ul class="drop-menu2">
+                        <li><a href="#" class="drop-menu2__link">Отели</a></li>
+                        <li><a href="#" class="drop-menu2__link">Торговые площади</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown-li"><a class="dropdown-item" href="#">Тиват</a>
+                      <ul class="drop-menu2">
+                        <li><a href="#" class="drop-menu2__link">Отели</a></li>
+                        <li><a href="#" class="drop-menu2__link">Торговые площади</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown-li"><a class="dropdown-item" href="#">Херцег-Нови</a>
+                      <ul class="drop-menu2">
+                        <li><a href="#" class="drop-menu2__link">Отели</a></li>
+                        <li><a href="#" class="drop-menu2__link">Торговые площади</a></li>
+                      </ul>
+                    </li>
+                  </ul>
                 </li>
                 <li class="nav-item main-menu__item">
                   <a class="nav-link main-menu__link" href="#" target="_blank">Спец предложения</a>
@@ -1076,7 +1220,7 @@
     </div>
   </div>
 
-  <a href="#top" class="top-scroll"><img src="img/top-scroll.png" alt=""></a>
+  <a href="#top" class="top-scroll"><img src="/img/top-scroll.png" alt=""></a>
 
   <footer class="footer">
     <div class="container">
@@ -1089,7 +1233,7 @@
         <div class="col-12">
           <div class="footer-content">
             <div class="soc-contact">
-              <a href="plavamonika@yandex.ru" class="soc-contact__link"><span><img src="img/email.png" alt=""></span>e-mail</a>
+              <a href="malito:plavamonika@yandex.ru" class="soc-contact__link"><span><img src="img/email.png" alt=""></span>plavamonika@yandex.ru</a>
               <a href="https://www.facebook.com/plavamonikare/" class="soc-contact__link"><span><img src="img/facebook-foot.png" alt=""></span>Facebook</a>
               <a href="https://www.youtube.com/channel/UCgFDioI9-j1fzQYUIRCKFsA" class="soc-contact__link"><span><img src="img/youtube.png" alt=""></span>YouTube</a>
             </div>
@@ -1166,6 +1310,12 @@
   crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="js/jquery.maskedinput.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $("#good").mask("+7 (999) 99-99-999");
+    });
+  </script>
   <script src="js/slick.min.js"></script>
   <script src="js/main.js"></script>
 </body>
