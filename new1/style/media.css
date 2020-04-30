@@ -406,8 +406,7 @@
   .header-bottom {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
-            justify-content: flex-start;
-    margin-top: 20px; }
+            justify-content: flex-start;}
     /* line 364, media.scss */
     .header-bottom .link-block {
       width: 100%;
