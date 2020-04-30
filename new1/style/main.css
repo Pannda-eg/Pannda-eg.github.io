@@ -559,7 +559,7 @@ body {
 /* line 504, main.scss */
 .header-bottom {
   position: fixed;
-  top: 116px;
+  top: 130px;
   left: 0;
   width: 100%;
   height: 35px;
@@ -1465,7 +1465,7 @@ input#acc_check6:checked ~ .sub-text {
     line-height: 2rem; }
   /* line 1339, main.scss */
   .info-left__link {
-    background: #1EADFE;
+    background: #809FA6;
     -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     width: 240px;
@@ -1482,7 +1482,7 @@ input#acc_check6:checked ~ .sub-text {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    color: #000;
+    color: #fff;
     margin: 40px auto 0; }
     /* line 1353, main.scss */
     .info-left__link span {
@@ -2237,7 +2237,7 @@ input#acc_check6:checked ~ .sub-text {
   /* line 2080, main.scss */
   .left-slider__text {
     text-transform: lowercase;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     line-height: 1.7rem;
     margin-bottom: 10px;
     text-align: center;
@@ -2460,6 +2460,14 @@ input#acc_check6:checked ~ .sub-text {
       margin-top: 30px; }
 
 /* line 2312, main.scss */
+.work-stages__title {
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  margin-bottom: 70px; }
+
+/* line 2320, main.scss */
 .work-link {
   width: 270px;
   height: 56px;
@@ -2477,12 +2485,22 @@ input#acc_check6:checked ~ .sub-text {
   font-size: 1.125rem;
   margin: 0 auto; }
 
-/* line 2324, main.scss */
+/* line 2332, main.scss */
 .work-link:hover,
 .work-link:focus {
   color: #fff; }
 
-/* line 2329, main.scss */
+/* line 2337, main.scss */
 #s1, #s2, #s3, #s4,
 #s5, #s6, #s7, #s8, #s9 {
   padding-top: 40px; }
+
+/* line 2342, main.scss */
+.privat-block > input {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content; }
+
+/* line 2346, main.scss */
+.bg-block {
+  margin-top: 50px; }
