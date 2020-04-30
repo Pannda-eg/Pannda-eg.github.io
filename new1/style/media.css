@@ -608,7 +608,8 @@
   .stages-item__link,
   .right-actual__link,
   .title-block__link,
-  .left-slider__link {
+  .left-slider__link,
+  .work-link {
     width: 200px;
     line-height: 40px;
     margin: 0 auto;
