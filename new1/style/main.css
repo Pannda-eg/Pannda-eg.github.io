@@ -2592,3 +2592,81 @@ input#acc_check6:checked ~ .sub-text {
 /* line 2439, main.scss */
 .children-menu__link:hover {
   color: #808080; }
+
+/* line 2444, main.scss */
+.sms-title {
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  color: #000;
+  padding-left: 10%; }
+
+/* line 2452, main.scss */
+.sms-cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
+/* line 2459, main.scss */
+.sms-item {
+  width: 100%;
+  max-width: 340px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px;
+  background: #C4C4C4;
+  min-height: 150px;
+  margin-top: 20px; }
+
+/* line 2471, main.scss */
+.sms-link {
+  font-size: 1.5rem;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  color: #000;
+  margin: 30px auto 40px;
+  position: relative; }
+  /* line 2481, main.scss */
+  .sms-link img {
+    width: 40px;
+    padding-top: 6px;
+    margin-left: 5px; }
+  /* line 2487, main.scss */
+  .sms-link::before {
+    content: '';
+    display: none;
+    width: 80%;
+    height: 1px;
+    background: #000;
+    position: absolute;
+    bottom: 0;
+    left: 0; }
+
+/* line 2499, main.scss */
+.sms-link:hover {
+  color: #000; }
+
+/* line 2503, main.scss */
+.sms-link:hover::before {
+  display: block; }
