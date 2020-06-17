@@ -1,0 +1,159 @@
+@media (max-width: 999px) {
+	.form-product .block-product {
+		flex-wrap: wrap;
+	}
+	.block-product .product-item {
+		margin-right: 20px;
+		margin-bottom: 20px;
+	}
+
+	.block-product .product-item:last-child {
+		margin-right: 0;
+		margin-bottom: 0;
+	}
+
+	.form-cont {
+		width: 99%;
+	}
+
+	.block-select {
+		width: 100%;
+	}
+
+	.block-s,
+	.block-select .select-title {
+		width: 95%;
+	}
+
+	.one-block {
+		background-position: center;
+	}
+}
+
+@media (max-width: 830px) {
+	.cont-bottom {
+		justify-content: space-around;
+	}
+
+	.cont-bottom button {
+		margin-left: 0;
+	}
+}
+
+@media (max-width: 768px) {
+	.header-cont {
+		height: 180px;
+	}
+
+	.block-tel .link-tel {
+		font-size: 32px;
+		line-height: 40px;
+	}
+	.header-logo img {
+		width: 200px;
+		height: 80px;
+		object-fit: contain;
+	}
+
+	.form-block {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding-left: 0;
+	}
+
+	.one-block {
+		padding-top: 50px;
+		padding-bottom: 70px;
+	}
+
+	.form-one .form-title, .input-block .block-text, .slider-block .slider-title, .form-product .form-title {
+		font-size: 20px;
+	}
+
+	.input-block input,
+	.input-block button {
+		height: 35px;
+		font-size: 20px;
+	}
+
+	.slick-dots li,
+	.slick-dots li button
+	{
+		width: 30px;
+		height: 30px;
+	}
+
+	.slick-dots li button {
+		box-shadow: inset 0 0 3px rgba(0, 0, 0, .22);
+	}
+
+	.slick-dots li button::before {
+		width: 16px;
+		height: 16px;
+	}
+
+	.form-cont .cont-top {
+		flex-wrap: wrap;
+	}
+
+	.cont-top .top-left {
+		margin-right: 0;
+		width: 100%;
+		max-width: 100%;
+		margin-bottom: 30px;
+	}
+
+	.cont-top .top-right {
+		width: 95%;
+		margin: 0 auto;
+	}
+
+	.cont-bottom {
+		flex-direction: column;
+	}
+
+	.cont-bottom button {
+		margin-top: 20px;
+	}
+}
+
+@media (max-width: 575px) {
+	.header-cont {
+		height: auto;
+		padding-top: 30px;
+		padding-bottom: 30px;
+		flex-direction: column;
+	}
+
+	.header-logo {
+		margin-bottom: 30px;
+	}
+
+	.slider .slider-item {
+		height: 230px;
+	}
+
+	.slider .slider-item img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+
+	.cont-top .top-left {
+		min-width: 250px;
+	}
+
+	.cont-bottom input,
+	.cont-bottom button {
+		width: 95%;
+	}
+
+	.form-product {
+		padding-bottom: 30px;
+	}
+
+	.header-logo img {
+		width: 230px;
+	}
+}
